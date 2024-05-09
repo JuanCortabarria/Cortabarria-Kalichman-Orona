@@ -11,6 +11,9 @@
 
 ## Modelado de usuarios del sistema
 
+## Mapa Modelo Conceptual del Problema
+![Modelo Conceptual del Problema](MapaConceptual.png)
+
 
 ## ESPECIFICACIÓN
 ## Requerimientos funcionales (RF):
