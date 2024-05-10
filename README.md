@@ -120,7 +120,7 @@ El sistema debe ser capaz de integrarse con sistemas de pago en línea para proc
 
 + |Actor: Cliente |
 + | ------------- | ------------- |
-+ Acción de los actor Respuesta del sistema
++ |Acción de los actor |Respuesta del sistema|
 + |1. El cliente accede a la sección de reserva de canchas en la aplicación. |2. La aplicación muestra los días disponibles para la cancha seleccionada.|
 + |3. El cliente selecciona una cancha de la lista. |4. La aplicación muestra los horarios disponibles para el día seleccionado.|
 + |5. El cliente elige un horario disponible. |6. La aplicación muestra los detalles de la reserva y las instrucciones para llegar a la cancha|
@@ -135,11 +135,13 @@ Referencias a Requerimientos:
 -  Notificación de Confirmación(RF5)
 
 
-| Encabezado 1 | Encabezado 2 | Encabezado 3 |
+| Actor: Cliente | Encabezado 2 | Encabezado 3 |
 |--------------|--------------|--------------|
 | Valor 1      | Valor 2      | Valor 3      |
 | Valor 4      | Valor 5      | Valor 6      |
-
+| Encabezado 1 | Encabezado 2 | Encabezado 3 |
+| Valor 1      | Valor 2      | Valor 3      |
+| Valor 4      | Valor 5      | Valor 6      |
 
 
 ![Modelo Conceptual del Problema](SeleccionarCancha.png)
