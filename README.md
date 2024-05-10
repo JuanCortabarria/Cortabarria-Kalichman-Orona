@@ -243,6 +243,14 @@ Basándonos en la validación con los usuarios y en la retroalimentación recibi
 
 # REFLEXIÓN
 
+Reflexión individual (Mauro Orona):
+Trabajar con mis compañeros fue genial. Nos organizamos bien, cumplimos nuestras metas y elegimos un tema que a todos nos gusta. Sin embargo, al principio, Git fue un desafío para mí. Gracias al apoyo de mis compañeros, pude superarlo y adaptarme.Esta experiencia me enseñó que trabajar en equipo significa apoyarse mutuamente, incluso cuando enfrentamos dificultades.
+
+Reflexión individual (Joaquin Kalichman):
+Me parece que nos llevamos muy bien como equipo. Aunque no nos conocíamos mucho al principio, nos entendimos muy bien y pudimos hacer todo lo que teníamos que hacer. Lo más importante fue que hablamos mucho y escuchamos las ideas de cada uno. Así pudimos lograr cosas que solos no podríamos. Este proyecto noto que me sera de gran ayuda en lo que consta mi futuro profesional.
+
+Reflexión individual (Juan Cortabarria):
+La verdad es que me encantó trabajar con mis compañeros en este proyecto. Aunque no nos conocíamos mucho al principio, nos llevamos muy bien y pudimos trabajar juntos sin problemas. Además, el tema que elegimos fue perfecto para todos nosotros, lo que hizo que todo fuera mucho más fácil. Al principio, me sentía un poco abrumado porque no era fácil adaptarse a github pero con la ayuda de mis compañeros y un poco de práctica, pude dominarla rápidamente.  Estoy especialmente contento de haber aprendido a usar esta nueva herramienta, GitHub, y de poder aplicarla en nuestro proyecto.
 
 
 # Investigación
