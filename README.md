@@ -1,27 +1,57 @@
-# Práctica de interfaz de usuario
+### Práctica de interfaz de usuario
 
-## REPOSITORIO
+### REPOSITORIO
 ...
 
-## VERSIONADO
+### VERSIONADO
 
 ...
-## ELICITACIÓN
-# Entrevista
+### ELICITACIÓN
 
-## Modelado de usuarios del sistema
+### Entrevista
 
-## User Persona
+Basándose en la entrevista, se pueden identificar varias problemáticas:
+
+# Problemáticas:
+
+1. **Ineficiencia en la coordinación de reservas:** El propietario menciona dificultades para gestionar los horarios y las reservas de los clientes de manera eficiente utilizando un sistema manual. Esto puede llevar a conflictos de horarios y a una experiencia deficiente para los clientes.
+
+2. **Comunicación limitada con los clientes:** Debido a la falta de un sistema automatizado, la comunicación con los clientes sobre las reservas y los horarios puede ser limitada y poco clara, lo que puede resultar en malentendidos y problemas de satisfacción del cliente.
+
+# Problemática a Resolver:
+
+La problemática principal a resolver es la ineficiencia en la gestión de reservas y horarios. Esto afecta directamente la experiencia del cliente y la eficiencia operativa del negocio. 
+
+# Solución Propuesta:
+
+La solución propuesta para abordar estas problemáticas sería implementar un sistema de reserva en línea. Este sistema debería tener las siguientes características:
+
+1. **Gestión automatizada de reservas:** Permitir a los clientes seleccionar una cancha disponible de una lista y reservar para una fecha y hora específicas de manera rápida y sencilla.
+
+2. **Calendario de disponibilidad en tiempo real:** Mostrar la disponibilidad de las canchas en tiempo real para evitar conflictos de horarios y garantizar una asignación eficiente de los recursos.
+
+3. **Notificaciones automáticas:** Enviar recordatorios automáticos de reserva a los clientes para reducir las ausencias y mejorar la comunicación.
+
+4. **Interfaz intuitiva y fácil de usar:** Proporcionar una interfaz amigable tanto para el propietario como para los clientes, lo que facilite la gestión de reservas y la navegación por el sistema.
+
+5. **Soporte para consultas y problemas:** Incluir un sistema de soporte para que los clientes puedan comunicarse fácilmente con el negocio en caso de problemas o consultas relacionadas con las reservas.
+
+Implementar esta solución no solo mejorará la eficiencia en la gestión de reservas y horarios, sino que también mejorará la experiencia del cliente al proporcionar una forma conveniente y transparente de reservar canchas de pádel.
+
+
+### Modelado de usuarios del sistema
+
+### User Persona
 User Persona del Dueño de las canchas de Padel
 ![Modelo Conceptual del Problema](perfilGINO.png)
 
 
-## Mapa Modelo Conceptual del Problema
+### Mapa Modelo Conceptual del Problema
 ![Modelo Conceptual del Problema](MapaConceptual.png)
 
 
-## ESPECIFICACIÓN
-## Requerimientos funcionales (RF):
+### ESPECIFICACIÓN
+### Requerimientos funcionales (RF):
 + RF1 Título: Reserva de Cancha. Descripción: Los usuarios pueden seleccionar una cancha disponible de la lista y reservarla para una fecha y hora específicas. Actor: Cliente. Prioridad: Alta.
 + RF2 Título: Verificación de Disponibilidad. Descripción: El sistema debe verificar la disponibilidad de la cancha seleccionada para la fecha y hora solicitadas antes de confirmar la reserva. Actor: Sistema. Prioridad: Alta.
 + RF3 Título: Registro de Reservas. Descripción: El sistema debe almacenar la información de las reservas realizadas, incluyendo la cancha, fecha, hora, nombre y correo electrónico del cliente. Actor: Sistema. Prioridad: Alta.
@@ -33,7 +63,7 @@ User Persona del Dueño de las canchas de Padel
 + RF10:Título: Sistema de Consultas Descripción: El sistema debe proporcionar una funcionalidad de consulta que permita a los usuarios enviar preguntas o solicitar información adicional sobre el servicio de reserva de canchas.Actor: Cliente. Prioridad: Media.
 
 
-## Requerimientos no funcionales (RNF)
+### Requerimientos no funcionales (RNF)
 - RNF1 Rendimiento: El sistema debe proporcionar tiempos de carga y respuesta rápidos, con un máximo de 10 segundos para cargar una página y procesar una reserva. Debe manejar un alto volumen de solicitudes simultáneas sin degradación del rendimiento. Prioridad: Alta.
 - RNF2 Escalabilidad: El sistema debe ser escalable para soportar un aumento en el número de usuarios y reservas sin afectar su rendimiento. Debe poder adaptarse fácilmente a nuevas canchas y funcionalidades adicionales. Prioridad: Alta.
 - RNF3 Disponibilidad: El sistema debe estar disponible las 24 horas del día, los 7 días de la semana, con un tiempo de inactividad planificado mínimo para mantenimiento. Se debe garantizar una disponibilidad del 99.9%. Prioridad: Alta.
@@ -46,9 +76,9 @@ User Persona del Dueño de las canchas de Padel
 - RNF10 Mantenibilidad: El sistema debe ser fácil de mantener y actualizar, permitiendo la incorporación de nuevas funcionalidades y la corrección de errores de manera eficiente y sin afectar su funcionamiento. Debe seguir buenas prácticas de desarrollo de software y modularidad. Prioridad: Media.
 - RNF11 Integración: El sistema debe ser capaz de integrarse con sistemas de pago en línea para procesar transacciones de reserva de manera segura y eficiente. Debe ser compatible con múltiples pasarelas de pago y proveedores de servicios de pago. Prioridad: Alta.
 
-## CASOS DE USO
+### CASOS DE USO
 
-## VALIDACIÓN Y VERIFICACIÓN
+### VALIDACIÓN Y VERIFICACIÓN
 Validación con Usuarios
 Se llevó a cabo una validación con usuarios potenciales de la aplicación de reserva de canchas de pádel:
 
@@ -77,13 +107,13 @@ Mejorar la visualización de la disponibilidad de horarios en días cercanos al 
 Estas sugerencias proporcionan valiosa retroalimentación para mejorar la usabilidad y la satisfacción del usuario.
 
 
-## REFLEXIÓN
+### REFLEXIÓN
 
-## Investigación
+### Investigación
 
 ...
 
-## Recursos adicionales
+### Recursos adicionales
 - [Documentación de HTML](https://www.w3.org/html/)
 - [Documentación de Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 - [WAVE Evaluation Tool](https://chromewebstore.google.com/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh)
