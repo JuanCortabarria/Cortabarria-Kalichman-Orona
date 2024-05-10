@@ -52,29 +52,49 @@ Implementar esta solución no solo mejorará la eficiencia en la gestión de res
 
 # ESPECIFICACIÓN
 # Requerimientos funcionales (RF):
-+ RF1 Título: Reserva de Cancha. Descripción: Los usuarios pueden seleccionar una cancha disponible de la lista y reservarla para una fecha y hora específicas. Actor: Cliente. Prioridad: Alta.
-+ RF2 Título: Verificación de Disponibilidad. Descripción: El sistema debe verificar la disponibilidad de la cancha seleccionada para la fecha y hora solicitadas antes de confirmar la reserva. Actor: Sistema. Prioridad: Alta.
-+ RF3 Título: Registro de Reservas. Descripción: El sistema debe almacenar la información de las reservas realizadas, incluyendo la cancha, fecha, hora, nombre y correo electrónico del cliente. Actor: Sistema. Prioridad: Alta.
-+ RF4 Título: Prevención de Reservas Duplicadas. Descripción: El sistema debe evitar que se realicen reservas para una misma cancha en la misma fecha y hora, mostrando una alerta al usuario en caso de intento de duplicación. Actor: Sistema. Prioridad: Media.
-+ RF5 Título: Notificación de Confirmación. Descripción: Después de realizar una reserva exitosa, el sistema debe enviar una notificación al correo electrónico proporcionado por el cliente confirmando los detalles de la reserva. Actor: Sistema. Prioridad: Alta.
-+ RF7 Título: Visualización de Historial de Reservas. Descripción: Los usuarios pueden acceder a un historial de sus reservas anteriores, visualizando la información detallada de cada reserva realizada. Actor: Cliente. Prioridad: Baja.
-+ RF8 Título: Consulta de Información de Canchas. Descripción: Los usuarios pueden acceder a la información detallada de las canchas disponibles en la lista. Pueden examinar detalles como descripciones, precios, ubicaciones y disponibilidad de las canchas. Actor: Cliente. Prioridad: Alta.
-+ RF9 Título: Registro de Pagos en la Cancha Descripción: El sistema debe permitir que el personal de la cancha registre los pagos realizados por los clientes directamente en el lugar, durante el proceso de reserva de la cancha. Esto incluye registrar el monto pagado, el método de pago utilizado (por ejemplo, efectivo, tarjeta de crédito), la fecha y hora del pago, así como la referencia de la reserva asociada. Este registro de pagos garantizará un seguimiento claro de los pagos realizados por los clientes en relación con sus reservas de canchas.Actor: Personal de la Cancha.Prioridad: Alta.
-+ RF10:Título: Sistema de Consultas Descripción: El sistema debe proporcionar una funcionalidad de consulta que permita a los usuarios enviar preguntas o solicitar información adicional sobre el servicio de reserva de canchas.Actor: Cliente. Prioridad: Media.
+#### + RF1 Título: 
+Reserva de Cancha. Descripción: Los usuarios pueden seleccionar una cancha disponible de la lista y reservarla para una fecha y hora específicas. Actor: Cliente. Prioridad: Alta.
+#### + RF2 Título: 
+Verificación de Disponibilidad. Descripción: El sistema debe verificar la disponibilidad de la cancha seleccionada para la fecha y hora solicitadas antes de confirmar la reserva. Actor: Sistema. Prioridad: Alta.
+#### + RF3 Título: 
+Registro de Reservas. Descripción: El sistema debe almacenar la información de las reservas realizadas, incluyendo la cancha, fecha, hora, nombre y correo electrónico del cliente. Actor: Sistema. Prioridad: Alta.
+#### + RF4 Título: 
+Prevención de Reservas Duplicadas. Descripción: El sistema debe evitar que se realicen reservas para una misma cancha en la misma fecha y hora, mostrando una alerta al usuario en caso de intento de duplicación. Actor: Sistema. Prioridad: Media.
+#### + RF5 Título: 
+Notificación de Confirmación. Descripción: Después de realizar una reserva exitosa, el sistema debe enviar una notificación al correo electrónico proporcionado por el cliente confirmando los detalles de la reserva. Actor: Sistema. Prioridad: Alta.
+#### + RF7 Título: 
+Visualización de Historial de Reservas. Descripción: Los usuarios pueden acceder a un historial de sus reservas anteriores, visualizando la información detallada de cada reserva realizada. Actor: Cliente. Prioridad: Baja.
+#### + RF8 Título: 
+Consulta de Información de Canchas. Descripción: Los usuarios pueden acceder a la información detallada de las canchas disponibles en la lista. Pueden examinar detalles como descripciones, precios, ubicaciones y disponibilidad de las canchas. Actor: Cliente. Prioridad: Alta.
+#### + RF9 Título: 
+Registro de Pagos en la Cancha Descripción: El sistema debe permitir que el personal de la cancha registre los pagos realizados por los clientes directamente en el lugar, durante el proceso de reserva de la cancha. Esto incluye registrar el monto pagado, el método de pago utilizado (por ejemplo, efectivo, tarjeta de crédito), la fecha y hora del pago, así como la referencia de la reserva asociada. Este registro de pagos garantizará un seguimiento claro de los pagos realizados por los clientes en relación con sus reservas de canchas.Actor: Personal de la Cancha.Prioridad: Alta.
+#### + RF10:Título: 
+Sistema de Consultas Descripción: El sistema debe proporcionar una funcionalidad de consulta que permita a los usuarios enviar preguntas o solicitar información adicional sobre el servicio de reserva de canchas.Actor: Cliente. Prioridad: Media.
 
 
 # Requerimientos no funcionales (RNF)
-- RNF1 Rendimiento: El sistema debe proporcionar tiempos de carga y respuesta rápidos, con un máximo de 10 segundos para cargar una página y procesar una reserva. Debe manejar un alto volumen de solicitudes simultáneas sin degradación del rendimiento. Prioridad: Alta.
-- RNF2 Escalabilidad: El sistema debe ser escalable para soportar un aumento en el número de usuarios y reservas sin afectar su rendimiento. Debe poder adaptarse fácilmente a nuevas canchas y funcionalidades adicionales. Prioridad: Alta.
-- RNF3 Disponibilidad: El sistema debe estar disponible las 24 horas del día, los 7 días de la semana, con un tiempo de inactividad planificado mínimo para mantenimiento. Se debe garantizar una disponibilidad del 99.9%. Prioridad: Alta.
-- RNF4 Seguridad: El sistema debe implementar medidas de seguridad robustas para proteger la información del usuario y las transacciones, incluyendo encriptación de datos, autenticación segura y protección contra ataques cibernéticos. Debe cumplir con estándares de seguridad de la industria. Prioridad: Alta.
-- RNF5 Fiabilidad: El sistema debe ser confiable y resistente a fallas, con mecanismos de respaldo y recuperación en caso de interrupciones inesperadas. Debe garantizar la integridad y disponibilidad de los datos en todo momento. Prioridad: Media.
-- RNF6 Usabilidad: La interfaz de usuario debe ser intuitiva y fácil de usar, con un diseño limpio y organizado que permita a los usuarios realizar reservas de manera rápida y sin confusiones. Debe ser accesible para usuarios de todas las edades y niveles de experiencia. Prioridad: Media.
-- RNF7 Cumplimiento Legal y Normativo: El sistema debe cumplir con todas las leyes y regulaciones relacionadas con la privacidad de datos, protección del consumidor y cualquier otro requisito legal aplicable en el ámbito de reservas deportivas en línea. Debe garantizar la privacidad y seguridad de la información del cliente. Prioridad: Alta.
-- RNF8: ID: RNF8 Compatibilidad: El sistema debe ser compatible con una variedad de dispositivos y navegadores web populares, asegurando una experiencia consistente para todos los usuarios independientemente del dispositivo que utilicen. Prioridad: Media.
-- RNF9 Testeabilidad: El sistema debe ser fácilmente testeable para garantizar su correcto funcionamiento y conformidad con los requisitos establecidos. Se deben realizar pruebas exhaustivas de todas las funcionalidades antes de su implementación en producción. Prioridad: Media.
-- RNF10 Mantenibilidad: El sistema debe ser fácil de mantener y actualizar, permitiendo la incorporación de nuevas funcionalidades y la corrección de errores de manera eficiente y sin afectar su funcionamiento. Debe seguir buenas prácticas de desarrollo de software y modularidad. Prioridad: Media.
-- RNF11 Integración: El sistema debe ser capaz de integrarse con sistemas de pago en línea para procesar transacciones de reserva de manera segura y eficiente. Debe ser compatible con múltiples pasarelas de pago y proveedores de servicios de pago. Prioridad: Alta.
+#### - RNF1 Rendimiento: 
+El sistema debe proporcionar tiempos de carga y respuesta rápidos, con un máximo de 10 segundos para cargar una página y procesar una reserva. Debe manejar un alto volumen de solicitudes simultáneas sin degradación del rendimiento. Prioridad: Alta.
+#### - RNF2 Escalabilidad: 
+El sistema debe ser escalable para soportar un aumento en el número de usuarios y reservas sin afectar su rendimiento. Debe poder adaptarse fácilmente a nuevas canchas y funcionalidades adicionales. Prioridad: Alta.
+#### - RNF3 Disponibilidad: 
+El sistema debe estar disponible las 24 horas del día, los 7 días de la semana, con un tiempo de inactividad planificado mínimo para mantenimiento. Se debe garantizar una disponibilidad del 99.9%. Prioridad: Alta.
+#### - RNF4 Seguridad: 
+El sistema debe implementar medidas de seguridad robustas para proteger la información del usuario y las transacciones, incluyendo encriptación de datos, autenticación segura y protección contra ataques cibernéticos. Debe cumplir con estándares de seguridad de la industria. Prioridad: Alta.
+#### - RNF5 Fiabilidad: 
+El sistema debe ser confiable y resistente a fallas, con mecanismos de respaldo y recuperación en caso de interrupciones inesperadas. Debe garantizar la integridad y disponibilidad de los datos en todo momento. Prioridad: Media.
+#### - RNF6 Usabilidad: 
+La interfaz de usuario debe ser intuitiva y fácil de usar, con un diseño limpio y organizado que permita a los usuarios realizar reservas de manera rápida y sin confusiones. Debe ser accesible para usuarios de todas las edades y niveles de experiencia. Prioridad: Media.
+#### - RNF7 Cumplimiento Legal y Normativo: 
+El sistema debe cumplir con todas las leyes y regulaciones relacionadas con la privacidad de datos, protección del consumidor y cualquier otro requisito legal aplicable en el ámbito de reservas deportivas en línea. Debe garantizar la privacidad y seguridad de la información del cliente. Prioridad: Alta.
+#### - RNF8: ID: RNF8 Compatibilidad: 
+El sistema debe ser compatible con una variedad de dispositivos y navegadores web populares, asegurando una experiencia consistente para todos los usuarios independientemente del dispositivo que utilicen. Prioridad: Media.
+#### - RNF9 Testeabilidad: 
+El sistema debe ser fácilmente testeable para garantizar su correcto funcionamiento y conformidad con los requisitos establecidos. Se deben realizar pruebas exhaustivas de todas las funcionalidades antes de su implementación en producción. Prioridad: Media.
+#### - RNF10 Mantenibilidad: 
+El sistema debe ser fácil de mantener y actualizar, permitiendo la incorporación de nuevas funcionalidades y la corrección de errores de manera eficiente y sin afectar su funcionamiento. Debe seguir buenas prácticas de desarrollo de software y modularidad. Prioridad: Media.
+#### - RNF11 Integración: 
+El sistema debe ser capaz de integrarse con sistemas de pago en línea para procesar transacciones de reserva de manera segura y eficiente. Debe ser compatible con múltiples pasarelas de pago y proveedores de servicios de pago. Prioridad: Alta.
 
 # CASOS DE USO
 
