@@ -1,7 +1,22 @@
 # Práctica de interfaz de usuario
 
 # REPOSITORIO
-...
+El equipo estableció un repositorio remoto en GitHub para el proyecto, y cada miembro del grupo creó un repositorio local mediante la clonación del mismo. Durante el desarrollo, se emplearon los comandos de git que se habían enseñado en clase. 
+Los comando más utilizados: 
++ git clone
++ git init
++ git add .
++ git commit -m "texto" 
++ git branch [nombre de la rama]
++ git push
++ git checkout [nombre de la rama]
++ git merge [nombre del archivo]
+
+Para la organización y estructuración del proyecto, se elaboró un archivo README.md que detalla y documenta exhaustivamente el proceso seguido. Dentro de la misma carpeta, se agregaron las imagenes utilizadas.
+Imagenes: 
++ User Persona: Dueño
++ User Persona: Jugador
++ User Persona: Modelado Conceptual del sistema a implementar. 
 
 # VERSIONADO
 
@@ -45,7 +60,7 @@ Implementar esta solución no solo mejorará la eficiencia en la gestión de res
 ## User Persona: Jugador
 ![Modelo Conceptual del Problema](perfilJugador.png)
 
-# Mapa Modelo Conceptual del Problema
+# Modelo Conceptual del Problema
 ![Modelo Conceptual del Problema](MapaConceptual.png)
 
 
