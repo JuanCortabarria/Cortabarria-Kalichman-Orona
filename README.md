@@ -118,13 +118,18 @@ El sistema debe ser capaz de integrarse con sistemas de pago en línea para proc
 
 ### Titulo: Reserva de Cancha
 
-+ |Actor: Cliente |
-+ | ------------- | ------------- |
-+ |Acción de los actor |Respuesta del sistema|
-+ |1. El cliente accede a la sección de reserva de canchas en la aplicación. |2. La aplicación muestra los días disponibles para la cancha seleccionada.|
-+ |3. El cliente selecciona una cancha de la lista. |4. La aplicación muestra los horarios disponibles para el día seleccionado.|
-+ |5. El cliente elige un horario disponible. |6. La aplicación muestra los detalles de la reserva y las instrucciones para llegar a la cancha|
-+ |7. El cliente confirma la reserva.|
+
+
+
+
+| Actor: Cliente |            |  
+|--------------|--------------|
+| Acción de los actor   | Respuesta del sistema   | 
+| 1 El cliente accede a la sección de reserva de canchas en la aplicación | 2 La aplicación muestra los días disponibles para la cancha seleccionada | 
+| 3 El cliente selecciona una cancha de la lista| 4 La aplicación muestra los horarios disponibles para el día seleccionado| 
+| 5 El cliente elige un horario disponible    |6 La aplicación muestra los detalles de la reserva y las instrucciones para llegar a la cancha    | 
+| 7 El cliente confirma la reserva   |      | 
+
 + Cursos alternativos:
 + 7.1 Si el horario seleccionado no tiene cupo, la app muestra un mensaje de error y no habilita la confirmación. 
 
@@ -133,8 +138,6 @@ Referencias a Requerimientos:
 -Verificación de Disponibilidad(RF2)
 -  Registro de Reservas (RF3)
 -  Notificación de Confirmación(RF5)
-
-
 
 
 ![Modelo Conceptual del Problema](SeleccionarCancha.png)
