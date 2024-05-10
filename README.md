@@ -29,9 +29,8 @@ La rama main se reservó exclusivamente para los cambios completamente finalizad
 
 # ELICITACIÓN
 
-El equipo opto por el lado de el alquiler de canchas de padel ya que vemos en la actualidad que este sector esta poco organizado y podemos llegar a aportar mucho.
-Juntos, estamos aprovechando la popularidad del pádel, el deporte de moda en estos días. A pesar de que las personas que jugaban al pádel enfrentaban dificultades al intentar coordinar sus horarios y encontrar canchas disponibles, por eso decidimos hacer una página web para reservar canchas de pádel porque siempre es difícil encontrar un lugar para jugar. Con la página, ahora es más fácil encontrar una cancha disponible cuando queremos jugar. Esto les ahorra tiempo y les quita la preocupación de si habrá lugar. La tecnica de elicitacion que elegimos, fue una entrevista, hacia un dueño de un complejo de canchas de padel, de la cual analizaremos las conclusiones a las que se llego.
-
+Fuimos por el lado de el alquiler de canchas de padel ya que vemos en la actualidad que este sector esta poco organizado y podemos llegar a aportar mucho.
+Juntos, estamos aprovechando la popularidad del pádel, el deporte de moda en estos días. A pesar de que las personas que jugaban al pádel enfrentaban dificultades al intentar coordinar sus horarios y encontrar canchas disponibles, por eso decidimos hacer una página web para reservar canchas de pádel porque siempre es difícil encontrar un lugar para jugar. Con la página, ahora es más fácil encontrar una cancha disponible cuando queremos jugar. Esto les ahorra tiempo y les quita la preocupación de si habrá lugar.
 
 # Entrevista
 
@@ -62,6 +61,24 @@ La solución propuesta para abordar estas problemáticas sería implementar un s
 5. **Soporte para consultas y problemas:** Incluir un sistema de soporte para que los clientes puedan comunicarse fácilmente con el negocio en caso de problemas o consultas relacionadas con las reservas.
 
 Implementar esta solución no solo mejorará la eficiencia en la gestión de reservas y horarios, sino que también mejorará la experiencia del cliente al proporcionar una forma conveniente y transparente de reservar canchas de pádel.
+
+
+# BrainStorming
+
+El objetivo es crear una experiencia que sea motivadora, divertida y que fomente el crecimiento y la mejora continua en el pádel.
+
+- Resumen de progreso: Implementar un sistema que permita a los usuarios realizar un seguimiento de su progreso en el pádel. Desde estadísticas de juegos ganados hasta mejoras en habilidades específicas, tener un resumen claro de su desarrollo puede ser motivador.
+
+- Palabras de aliento: Después de cada reserva y juego completado, enviar mensajes de ánimo y felicitación a los jugadores. Reconocer sus esfuerzos y logros puede motivarlos a seguir practicando y mejorando.
+
+- Enfoque en la práctica: Diseñar la plataforma de reserva de canchas de pádel de manera que fomente la práctica constante. Esto podría incluir recordatorios para reservar sesiones de práctica regularmente y sugerencias de ejercicios para mejorar habilidades específicas.
+
+- Libertad guiada: Permitir a los jugadores la libertad de elegir cuándo reservar canchas y cómo estructurar sus sesiones de juego, pero proporcionando también orientación sobre cómo avanzar y mejorar en el deporte. Esto podría incluir recomendaciones de programas de entrenamiento o consejos de expertos.
+
+- Sistema de niveles de experiencia: Crear un sistema de niveles de experiencia para los jugadores, donde puedan ganar puntos y subir de nivel a medida que juegan más partidos, participan en torneos o completan desafíos específicos. Esto podría proporcionar un sentido de logro y progresión a largo plazo.
+
+- Interfaz simple y atractiva para niños: Diseñar la plataforma de reserva de canchas de pádel con una interfaz intuitiva y colorida que sea atractiva para los niños. Esto podría incluir personajes animados, gráficos llamativos y opciones de personalización para hacer que la experiencia sea divertida y accesible para jugadores jóvenes.
+
 
 
 # Modelado de usuarios del sistema
@@ -243,16 +260,6 @@ Basándonos en la validación con los usuarios y en la retroalimentación recibi
 
 
 # REFLEXIÓN
-
-Reflexión individual (Mauro Orona):
-Trabajar con mis compañeros fue genial. Nos organizamos bien, cumplimos nuestras metas y elegimos un tema que a todos nos gusta. Sin embargo, al principio, Git fue un desafío para mí. Gracias al apoyo de mis compañeros, pude superarlo y adaptarme.Esta experiencia me enseñó que trabajar en equipo significa apoyarse mutuamente, incluso cuando enfrentamos dificultades.
-
-Reflexión individual (Joaquin Kalichman):
-Me parece que nos llevamos muy bien como equipo. Aunque no nos conocíamos mucho al principio, nos entendimos muy bien y pudimos hacer todo lo que teníamos que hacer. Lo más importante fue que hablamos mucho y escuchamos las ideas de cada uno. Así pudimos lograr cosas que solos no podríamos. Este proyecto noto que me sera de gran ayuda en lo que consta mi futuro profesional.
-
-Reflexión individual (Juan Cortabarria):
-La verdad es que me encantó trabajar con mis compañeros en este proyecto. Aunque no nos conocíamos mucho al principio, nos llevamos muy bien y pudimos trabajar juntos sin problemas. Además, el tema que elegimos fue perfecto para todos nosotros, lo que hizo que todo fuera mucho más fácil. Al principio, me sentía un poco abrumado porque no era fácil adaptarse a github pero con la ayuda de mis compañeros y un poco de práctica, pude dominarla rápidamente.  Estoy especialmente contento de haber aprendido a usar esta nueva herramienta, GitHub, y de poder aplicarla en nuestro proyecto.
-
 
 # Investigación
 
