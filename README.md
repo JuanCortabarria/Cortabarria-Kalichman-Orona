@@ -79,8 +79,6 @@ El objetivo es crear una experiencia que sea motivadora, divertida y que fomente
 
 - Interfaz simple y atractiva para niños: Diseñar la plataforma de reserva de canchas de pádel con una interfaz intuitiva y colorida que sea atractiva para los niños. Esto podría incluir personajes animados, gráficos llamativos y opciones de personalización para hacer que la experiencia sea divertida y accesible para jugadores jóvenes.
 
-
-
 # Modelado de usuarios del sistema
 ## User Persona: Dueño
 ![Modelo Conceptual del Problema](perfilGINO.png)
