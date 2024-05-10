@@ -135,13 +135,6 @@ Referencias a Requerimientos:
 -  Notificación de Confirmación(RF5)
 
 
-| Actor: Cliente | Encabezado 2 | Encabezado 3 |
-|--------------|--------------|--------------|
-| Valor 1      | Valor 2      | Valor 3      |
-| Valor 4      | Valor 5      | Valor 6      |
-| Encabezado 1 | Encabezado 2 | Encabezado 3 |
-| Valor 1      | Valor 2      | Valor 3      |
-| Valor 4      | Valor 5      | Valor 6      |
 
 
 ![Modelo Conceptual del Problema](SeleccionarCancha.png)
