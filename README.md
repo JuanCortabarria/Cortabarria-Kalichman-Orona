@@ -187,32 +187,58 @@ Referencias a Requerimientos:
 
 
 # VALIDACIÓN Y VERIFICACIÓN
-Validación con Usuarios
-Se llevó a cabo una validación con usuarios potenciales de la aplicación de reserva de canchas de pádel:
+
+
+### Validación con Usuarios
+Realizamos la validación con 2 posibles usuarios de la aplicación de reserva de canchas de pádel, el primero es Juan Pérez, un adulto de 35 años que juega al pádel regularmente y el segundo es María López, una adulta de 28 años que está interesada en aprender a jugar al pádel.
 
 #### Usuario 1: Juan Pérez
 
 Edad: 35 años
 Experiencia: Jugador de pádel aficionado durante 3 años
 Comentarios positivos:
-Encontró el proceso de reserva intuitivo y fácil de usar.
-Apreció la visualización clara de los horarios disponibles.
-Le gustó la función de confirmación de reserva con detalles y direcciones de la cancha.
+no tuvo ningún inconveniente con la forma en que se presentaban las opciones de reserva de canchas. Le gustó que la aplicación mostrara claramente los días y horarios disponibles, lo que le permitió organizar mejor su tiempo de juego. Además, apreció la función de recibir notificaciones de confirmación de reserva, lo que le brinda una mayor tranquilidad y seguridad sobre su reserva.
+
 
 #### Usuario 2: María López
 
 Edad: 28 años
 Experiencia: Principiante en pádel
 Comentarios positivos:
-Encontró útil la lista de canchas con información detallada.
+Le pareció útil que la aplicación no solo permitiera reservar una cancha, sino que también proporcionara información adicional sobre las instalaciones, como la ubicación y los servicios disponibles. Además, le gustó la idea de poder compartir sus reservas con amigos a través de la función de desafiar, lo que le permitiría organizar partidos con sus amigos de forma fácil y divertida.
 
-Validación de Prototipo
-Ambos usuarios expresaron satisfacción con la experiencia de reserva de canchas de pádel. Sin embargo, sugirieron las siguientes mejoras:
+#### Validación de Prototipo
 
-Incluir un tutorial breve para nuevos usuarios sobre cómo utilizar la aplicación.
-Agregar la opción de guardar canchas favoritas para un acceso rápido en futuras reservas.
-Mejorar la visualización de la disponibilidad de horarios en días cercanos al actual.
-Estas sugerencias proporcionan valiosa retroalimentación para mejorar la usabilidad y la satisfacción del usuario.
+Juan sugirió que la aplicación podría mejorar al ofrecer la posibilidad de seleccionar un nivel de habilidad al momento de realizar la reserva, lo que permitiría adaptar la experiencia de juego a sus preferencias y habilidades. También sugirió que la aplicación podría mostrar estadísticas de su desempeño en los partidos anteriores, como el porcentaje de partidos ganados o perdidos, para que pueda evaluar su progreso a lo largo del tiempo.
+
+Maria expresó que le gustaría que la aplicación mostrara imágenes de las diferentes canchas disponibles, para que pueda tener una mejor idea de cómo son antes de hacer una reserva. También sugirió que la aplicación podría ofrecer la opción de reservar clases de pádel para aquellos que estén interesados en aprender a jugar, lo que ampliaría las opciones disponibles para los usuarios.
+
+#### Conclusiones:
+Basándonos en la validación con los usuarios y en la retroalimentación recibida, podemos concluir que la aplicación de reserva de canchas de pádel tiene una buena recepción entre los usuarios, quienes encuentran útiles y atractivas varias características de la aplicación. Sin embargo, también identificamos áreas de mejora, como la personalización de la experiencia de reserva y la inclusión de más información visual y opciones de reserva. Estas sugerencias serán tomadas en cuenta para futuras iteraciones del diseño y desarrollo de la aplicación.
+
+
+### Verificación Requerimientos:
+
+| Requerimiento | Correctitud | ¿Es viable? | ¿Están correctamente priorizados? | ¿Están los usuarios identificados? | Verificabilidad y no ambigüedad | ¿Es preciso y no ambigüo? | ¿Es verificable? | ¿No hay conflictos con otros requerimientos? | ¿No incluye aspectos de diseño o implementación? | ¿Está dentro del alcance del problema a resolver? |
+|---------------|-------------|--------------|------------------------------------|------------------------------------|-----------------------------------|-------------------------------|-------------------|----------------------------------------------|----------------------------------------|-------------------------------------------------|
+| RF1           | Correcto    | Sí           | Sí                                 | Sí                                 | Sí                                | Sí                            | Sí                | Sí                                           | Sí                                     | Sí                                              |
+| RF2           | Correcto    | Sí           | Sí                                 | Sí                                 | Sí                                | Sí                            | Sí                | Sí                                           | Sí                                     | Sí                                              |
+| RF3           | Correcto    | Sí           | Sí                                 | No                                 | Sí                                | Sí                            | Sí                | Sí                                           | Sí                                     | Sí                                              |
+| RF4           | Correcto    | Sí           | Sí                                 | No                                 | Sí                                | Sí                            | Sí                | Sí                                           | Sí                                     | Sí                                              |
+| RF5           | Correcto    | Sí           | Sí                                 | No                                 | Sí                                | Sí                            | Sí                | Sí                                           | Sí                                     | Sí                                              |
+| RF6           | Correcto    | Sí           | Sí                                 | Sí                                 | Sí                                | Sí                            | Sí                | Sí                                           | Sí                                     | Sí                                              |
+| RF7           | Correcto    | Sí           | Sí                                 | Sí                                 | Sí                                | Sí                            | Sí                | Sí                                           | Sí                                     | Sí                                              |
+| RF8           | Correcto    | Sí           | Sí                                 | Sí                                 | Sí                                | Sí                            | Sí                | Sí                                           | Sí                                     | Sí                                              |
+| RF9           | Correcto    | Sí           | Sí                                 | No                                 | Sí                                | Sí                            | Sí                | Sí                                           | Sí                                     | Sí                                              |
+
+
+### Verificación de Casos de uso
+| Caso de Uso | ¿Cumple un único objetivo? | ¿Queda claro quiénes son los actores? | ¿Existe una secuencia lógica de los pasos? | ¿Está libre de detalles de diseño e implementaciones? | ¿Se documentaron todos los cursos alternativos? |
+|-------------|-----------------------------|-----------------------------------------|----------------------------------------------|--------------------------------------------------|---------------------------------------------------|
+| Caso 1      | Sí                          | Sí                                      | Sí                                           | Sí                                               | Sí                                                |
+| Caso 2      | Sí                          | Sí                                      | Sí                                           | Sí                                               | Sí                                                |
+| Caso 3      | Sí                          | Sí                                      | Sí                                           | Sí                                               | Sí                                                |
+
 
 
 # REFLEXIÓN
