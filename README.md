@@ -1,8 +1,7 @@
 # Práctica de interfaz de usuario
 
 # REPOSITORIO
-El equipo estableció un repositorio remoto en GitHub para el proyecto, y cada miembro del grupo creó un repositorio local mediante la clonación del mismo. Durante el desarrollo, se emplearon los comandos de git que se habían enseñado en clase. 
-Los comando más utilizados: 
+Para la coordinación y gestión del código fuente, nuestro equipo empleó un repositorio en GitHub, que cada uno de nosotros clonó localmente en su máquina. A lo largo del proyecto, implementamos varios comandos de Git que habíamos aprendido en clase, incluyendo las siguientes: 
 + git clone
 + git init
 + git add .
@@ -11,6 +10,8 @@ Los comando más utilizados:
 + git push
 + git checkout [nombre de la rama]
 + git merge [nombre del archivo]
+
+para manejar nuestras actualizaciones y colaboración de manera eficiente.
 
 Para la organización y estructuración del proyecto, se elaboró un archivo README.md que detalla y documenta exhaustivamente el proceso seguido. Dentro de la misma carpeta, se agregaron las imagenes utilizadas.
 Imagenes: 
