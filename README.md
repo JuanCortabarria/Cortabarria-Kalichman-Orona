@@ -40,10 +40,9 @@ Implementar esta solución no solo mejorará la eficiencia en la gestión de res
 
 
 # Modelado de usuarios del sistema
-
-# User Persona
-#### User Persona del Dueño de las canchas de Padel
+## User Persona: Dueño
 ![Modelo Conceptual del Problema](perfilGINO.png)
+## User Persona: Jugador
 
 
 # Mapa Modelo Conceptual del Problema
