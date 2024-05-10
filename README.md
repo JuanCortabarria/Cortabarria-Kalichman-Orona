@@ -1,7 +1,16 @@
 # Práctica de interfaz de usuario
 
 # REPOSITORIO
-Para la coordinación y gestión del código fuente, nuestro equipo empleó un repositorio en GitHub, que cada uno de nosotros clonó localmente en su máquina. A lo largo del proyecto, implementamos varios comandos de Git que habíamos aprendido en clase, incluyendo las siguientes: 
+
+Para la coordinación y gestión del código fuente, nuestro equipo empleó un repositorio en GitHub, utilizando el comando de (git clone (url del repo)), cada uno de nosotros clonó localmente.
+Para la organización y estructuración del proyecto, se elaboró un archivo README.md que detalla y documenta exhaustivamente el proceso seguido. Dentro de la misma carpeta, se agregaron las imagenes utilizadas.
+Imagenes: 
++ User Persona: Dueño
++ User Persona: Jugador
++ User Persona: Modelado Conceptual del sistema a implementar. 
+
+A lo largo del proyecto, implementamos varios comandos de Git que habíamos aprendido en clase, por ejemplo cada vez que modificamos el archivo README.md usabamos (git add .) seguido de (git commit -m "comentario") para implementar los cambios, y para finalmente subirlos a GitHub mediante el comando (git push). Luego cada uno de los integrantes estaba constantemente actualizando su codigo mediante el comando (git pull) para tener al dia siempre con los commits del resto de integrantes. Estos son los comandos utilizados a lo largo de nuestro proyecto.
+
 + git clone
 + git init
 + git add .
@@ -12,12 +21,6 @@ Para la coordinación y gestión del código fuente, nuestro equipo empleó un r
 + git merge [nombre del archivo]
 
 para manejar nuestras actualizaciones y colaboración de manera eficiente.
-
-Para la organización y estructuración del proyecto, se elaboró un archivo README.md que detalla y documenta exhaustivamente el proceso seguido. Dentro de la misma carpeta, se agregaron las imagenes utilizadas.
-Imagenes: 
-+ User Persona: Dueño
-+ User Persona: Jugador
-+ User Persona: Modelado Conceptual del sistema a implementar. 
 
 # VERSIONADO
 
