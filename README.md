@@ -43,7 +43,7 @@ Implementar esta solución no solo mejorará la eficiencia en la gestión de res
 ## User Persona: Dueño
 ![Modelo Conceptual del Problema](perfilGINO.png)
 ## User Persona: Jugador
-
+![Modelo Conceptual del Problema](perfilJugador.png)
 
 # Mapa Modelo Conceptual del Problema
 ![Modelo Conceptual del Problema](MapaConceptual.png)
