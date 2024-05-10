@@ -32,7 +32,7 @@ La rama main se reservó exclusivamente para los cambios completamente finalizad
 Fuimos por el lado de el alquiler de canchas de padel ya que vemos en la actualidad que este sector esta poco organizado y podemos llegar a aportar mucho.
 Juntos, estamos aprovechando la popularidad del pádel, el deporte de moda en estos días. A pesar de que las personas que jugaban al pádel enfrentaban dificultades al intentar coordinar sus horarios y encontrar canchas disponibles, por eso decidimos hacer una página web para reservar canchas de pádel porque siempre es difícil encontrar un lugar para jugar. Con la página, ahora es más fácil encontrar una cancha disponible cuando queremos jugar. Esto les ahorra tiempo y les quita la preocupación de si habrá lugar.
 
-### Entrevista
+### Entrevista | Investigacion
 
 Basándose en la entrevista, se pueden identificar varias problemáticas:
 
@@ -268,11 +268,6 @@ Me parece que nos llevamos muy bien como equipo. Aunque no nos conocíamos mucho
 
 Reflexión individual (Juan Cortabarria):
 La verdad es que me encantó trabajar con mis compañeros en este proyecto. Aunque no nos conocíamos mucho al principio, nos llevamos muy bien y pudimos trabajar juntos sin problemas. Además, el tema que elegimos fue perfecto para todos nosotros, lo que hizo que todo fuera mucho más fácil.Al principio, me sentía un poco abrumado porque no era fácil adaptarse a github pero con la ayuda de mis compañeros y un poco de práctica, pude dominarla rápidamente.  Estoy especialmente contento de haber aprendido a usar esta nueva herramienta, GitHub, y de poder aplicarla en nuestro proyecto. 
-
-
-# Investigación
-
-
 
 # Recursos adicionales
 - [Documentación de HTML](https://www.w3.org/html/)
