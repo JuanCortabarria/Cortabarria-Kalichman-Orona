@@ -2,7 +2,7 @@
 
 # REPOSITORIO
 
-Para la coordinación y gestión del código fuente, nuestro equipo empleó un repositorio en GitHub, utilizando el comando de (git clone <url del repo>), cada uno de nosotros clonó localmente. A lo largo del proyecto, implementamos varios comandos de Git que habíamos aprendido en clase, por ejemplo cada vez que modificamos el archivo README.md usabamos (git add .) seguido de (git commit -m "comentario") para implementar los cambios, y para finalmente subirlos a GitHub mediante el comando (git push). Luego cada uno de los integrantes estaba constantemente actualizando su codigo mediante el comando (git pull) para tener al dia siempre con los commits del resto de integrantes. 
+Para la coordinación y gestión del código fuente, nuestro equipo empleó un repositorio en GitHub, utilizando el comando de (git clone <url del repo>), cada uno de nosotros clonó localmente. A lo largo del proyecto, implementamos varios comandos de Git que habíamos aprendido en clase, por ejemplo cada vez que modificamos el archivo README.md usabamos (git add .) seguido de (git commit -m "comentario") para implementar los cambios, y para finalmente subirlos a GitHub mediante el comando (git push). Luego cada uno de los integrantes estaba constantemente actualizando su codigo mediante el comando (git pull) para tener al dia siempre con los commits del resto de integrantes. Estos son los comandos utilizados a lo largo de nuestro proyecto.
 
 + git clone
 + git init
