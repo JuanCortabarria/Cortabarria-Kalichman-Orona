@@ -124,8 +124,7 @@ El sistema debe ser capaz de integrarse con sistemas de pago en línea para proc
 | Actor: Cliente |            | 
 |--------------|--------------|
 | Acción de los actor    | Respuesta del sistema     | 
-| 1 El usuario ingresa a la aplicación de reserva de canchas | 2 La aplicación muestra una lista de canchas disponibles con imágenes, nombres, descripciones, precios y
-ubicaciones    | 
+| 1 El usuario ingresa a la aplicación de reserva de canchas |2 La aplicación muestra una lista de canchas disponibles con imágenes, nombres, descripciones, precios y ubicaciones | 
 |3 El usuario examina la información de las canchas disponibles|5 Al seleccionar una cancha específica, la aplicación muestra una vista detallada con información adicional|
 |4 El usuario selecciona una cancha específica para obtener más detalles||
 
