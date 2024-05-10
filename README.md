@@ -111,6 +111,11 @@ El sistema debe ser fácil de mantener y actualizar, permitiendo la incorporaci�
 El sistema debe ser capaz de integrarse con sistemas de pago en línea para procesar transacciones de reserva de manera segura y eficiente. Debe ser compatible con múltiples pasarelas de pago y proveedores de servicios de pago. Prioridad: Alta.
 
 # CASOS DE USO
+#### Bocetos UI 
+![Modelo Conceptual del Problema](SeleccionarCancha.png)
+![Modelo Conceptual del Problema](reservaCancha2.png)
+![Modelo Conceptual del Problema](confirmacionReserva.png)
+![Modelo Conceptual del Problema](reservaCancha.png)
 
 # VALIDACIÓN Y VERIFICACIÓN
 Validación con Usuarios
