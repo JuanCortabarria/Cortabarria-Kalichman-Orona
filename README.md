@@ -26,6 +26,9 @@ La rama main se reservó exclusivamente para los cambios completamente finalizad
 
 # ELICITACIÓN
 
+Fuimos por el lado de el alquiler de canchas de padel ya que vemos en la actualidad que este sector esta poco organizado y podemos llegar a aportar mucho.
+Juntos, estamos aprovechando la popularidad del pádel, el deporte de moda en estos días. A pesar de que las personas que jugaban al pádel enfrentaban dificultades al intentar coordinar sus horarios y encontrar canchas disponibles, por eso decidimos hacer una página web para reservar canchas de pádel porque siempre es difícil encontrar un lugar para jugar. Con la página, ahora es más fácil encontrar una cancha disponible cuando queremos jugar. Esto les ahorra tiempo y les quita la preocupación de si habrá lugar.
+
 # Entrevista
 
 Basándose en la entrevista, se pueden identificar varias problemáticas:
