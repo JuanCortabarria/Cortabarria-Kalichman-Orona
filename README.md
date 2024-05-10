@@ -182,8 +182,7 @@ Referencias a Requerimientos:
 
 #### Bocetos UI 
 ![Modelo Conceptual del Problema](reservaCancha2.png)
-![Modelo Conceptual del Problema](confirmacionReserva.png)
-![Modelo Conceptual del Problema](reservaCancha.png)
+
 
 # VALIDACIÓN Y VERIFICACIÓN
 Validación con Usuarios
