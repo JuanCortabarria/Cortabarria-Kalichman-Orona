@@ -22,12 +22,6 @@ A lo largo del proyecto, implementamos varios comandos de Git que habíamos apre
 
 para manejar nuestras actualizaciones y colaboración de manera eficiente.
 
-Para la organización y estructuración del proyecto, se elaboró un archivo README.md que detalla y documenta exhaustivamente el proceso seguido. Dentro de la misma carpeta, se agregaron las imagenes utilizadas.
-Imagenes: 
-+ User Persona: Dueño
-+ User Persona: Jugador
-+ User Persona: Modelado Conceptual del sistema a implementar. 
-
 # VERSIONADO
 
 Optamos por una estrategia de ramificación que involucra la creación de cuatro ramas principales, correspondientes a cada uno de los integrantes del equipo. Esto permitió que cada miembro trabajara de manera independiente sin interferir con el progreso de los demás, utilizando los comandos git branch y git merge para gestionar las integraciones de sus contribuciones.
