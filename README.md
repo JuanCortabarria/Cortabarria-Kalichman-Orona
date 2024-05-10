@@ -114,13 +114,29 @@ El sistema debe ser fácil de mantener y actualizar, permitiendo la incorporaci�
 El sistema debe ser capaz de integrarse con sistemas de pago en línea para procesar transacciones de reserva de manera segura y eficiente. Debe ser compatible con múltiples pasarelas de pago y proveedores de servicios de pago. Prioridad: Alta.
 
 # CASOS DE USO
+
+### Titulo: Visualización de Información de Canchas
+
+
+| Actor: Cliente |            | 
+|--------------|--------------|
+| Acción de los actor    | Respuesta del sistema     | 
+| 1 El usuario ingresa a la aplicación de reserva de canchas | 2 La aplicación muestra una lista de canchas disponibles con imágenes, nombres, descripciones, precios y
+ubicaciones    | 
+|3 El usuario examina la información de las canchas disponibles|5 Al seleccionar una cancha específica, la aplicación muestra una vista detallada con información adicional|
+|4 El usuario selecciona una cancha específica para obtener más detalles||
+
+Cursos alternativos:
++ 3.1 Ante información desactualizada de una cancha, el usuario puede informar sobre el problema 
+
+Referencias a Requerimientos:
+- Listado de canchas (RF3)
 #### Bocetos UI 
+![Modelo Conceptual del Problema](SeleccionarCancha.png)
+
+
 
 ### Titulo: Reserva de Cancha
-
-
-
-
 
 | Actor: Cliente |            |  
 |--------------|--------------|
@@ -130,7 +146,7 @@ El sistema debe ser capaz de integrarse con sistemas de pago en línea para proc
 | 5 El cliente elige un horario disponible    |6 La aplicación muestra los detalles de la reserva y las instrucciones para llegar a la cancha    | 
 | 7 El cliente confirma la reserva   |      | 
 
-+ Cursos alternativos:
+Cursos alternativos:
 + 7.1 Si el horario seleccionado no tiene cupo, la app muestra un mensaje de error y no habilita la confirmación. 
 
 Referencias a Requerimientos:
@@ -138,9 +154,30 @@ Referencias a Requerimientos:
 -Verificación de Disponibilidad(RF2)
 -  Registro de Reservas (RF3)
 -  Notificación de Confirmación(RF5)
+#### Bocetos UI
+![Modelo Conceptual del Problema](reservaCancha.png)
+![Modelo Conceptual del Problema](confirmacionReserva.png)
 
 
-![Modelo Conceptual del Problema](SeleccionarCancha.png)
+### Titulo: Envío de Consulta sobre Reservas
+
+| Actor: Cliente |  | 
+|--------------|--------------| 
+| Acción de los actor     | Respuesta del sistema     | 
+| 1 El usuario accede a la sección de consultas de la aplicación de reserva de canchas.    | 2 La aplicación muestra un formulario para enviar consultas.      | 
+| 3 El usuario proporciona su nombre, apellido y dirección de correo electrónico en el formulario. | 4 La aplicación recopila y almacena de forma segura la información del usuario, incluyendo nombre, apellido y dirección de correo electrónico. 
+| 5 El usuario ingresa un mensaje con su consulta. | 6 La aplicación muestra una notificación de confirmación cuando la consulta ha sido enviada con éxito    | 
+| 7 El usuario envía la consulta.      |    | 
+
+Cursos alternativos:
++ 4.1 Si el usuario proporciona datos no válidos en el formulario, como una dirección de correo electrónico incorrecta o un formato de nombre inválido, la aplicación muestra un mensaje de error y solicita al usuario corregir los campos con errores.
++ 3.1Si el usuario no completa alguno de los campos obligatorios como nombre, apellido o dirección de correo electrónico, la aplicación muestra un mensaje de error y solicita al usuario que complete todos los campos necesarios.
+
+Referencias a Requerimientos:
+- Listado de canchas (RF3)
+
+
+#### Bocetos UI 
 ![Modelo Conceptual del Problema](reservaCancha2.png)
 ![Modelo Conceptual del Problema](confirmacionReserva.png)
 ![Modelo Conceptual del Problema](reservaCancha.png)
