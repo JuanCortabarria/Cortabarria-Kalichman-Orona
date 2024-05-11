@@ -24,7 +24,7 @@ para manejar nuestras actualizaciones y colaboración de manera eficiente.
 
 # VERSIONADO
 
-El equipo opto por el uso de dos ramas, la rama principal "main" que fue la mas usada debido a que al comienzo no se nos hizo facil el empleo de el comando git branch, luego se utilizo una rama "develop" para el uso de 
+El equipo decidió utilizar dos ramas principales dentro del repositorio. La rama "main" fue la más utilizada inicialmente, ya que nos enfrentamos a dificultades con el manejo del comando git branch. Posteriormente, para mejorar la organización de los commits y facilitar el trabajo colaborativo sin afectar el flujo principal en "main", se implementó una rama secundaria llamada "develop". Esta estructura permitió un desarrollo más estructurado y evitó interrupciones en la línea principal de desarrollo mientras se experimentaba o se trabajaba en nuevas características.
 
 # ELICITACIÓN
 
