@@ -24,7 +24,7 @@ para manejar nuestras actualizaciones y colaboración de manera eficiente.
 
 # VERSIONADO
 
-El equipo opto por el uso
+El equipo opto por el uso de dos ramas, la rama principal "main" que fue la mas usada debido a que generalmente 
 
 # ELICITACIÓN
 
