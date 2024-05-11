@@ -3,11 +3,13 @@
 # REPOSITORIO
 
 Para la coordinación y gestión del código fuente, nuestro equipo empleó un repositorio en GitHub, utilizando el comando de (git clone (url del repo)), cada uno de nosotros clonó localmente.
-Para la organización y estructuración del proyecto, se elaboró un archivo README.md que detalla y documenta exhaustivamente el proceso seguido. Dentro de la misma carpeta, se agregaron las imagenes utilizadas.
+Para la organización y estructuración del proyecto, se elaboró un archivo README.md que detalla y documenta exhaustivamente el proceso seguido. Posteriormente, dentro de otra carpeta, llamada IMG se Agregaron las imagenes utilizadas.
 Imagenes: 
 + User Persona: Dueño
 + User Persona: Jugador
 + User Persona: Modelado Conceptual del sistema a implementar. 
++ Bocetos UI
++ Entrevista
 
 A lo largo del proyecto, implementamos varios comandos de Git que habíamos aprendido en clase, por ejemplo cada vez que modificamos el archivo README.md usabamos (git add .) seguido de (git commit -m "comentario") para implementar los cambios, y para finalmente subirlos a GitHub mediante el comando (git push). Luego cada uno de los integrantes estaba constantemente actualizando su codigo mediante el comando (git pull) para tener al dia siempre con los commits del resto de integrantes. Estos son los comandos utilizados a lo largo de nuestro proyecto.
 
@@ -24,6 +26,7 @@ para manejar nuestras actualizaciones y colaboración de manera eficiente.
 
 # VERSIONADO
 
+El equipo decidió utilizar dos ramas principales dentro del repositorio. La rama "main" fue la más utilizada inicialmente, ya que nos enfrentamos a dificultades con el manejo del comando git branch. Posteriormente, para mejorar la organización de los commits y facilitar el trabajo colaborativo sin afectar el flujo principal en "main", se implementó una rama secundaria llamada "develop". Esta estructura permitió un desarrollo más estructurado y evitó interrupciones en la línea principal de desarrollo mientras se experimentaba o se trabajaba en nuevas características.
 
 # ELICITACIÓN
 
@@ -38,7 +41,7 @@ En esta entrevista, exploramos los desafíos que enfrenta un propietario de una 
 Conclusiones:
 El propietario de la cancha de pádel reconoce la importancia de abordar los desafíos en la gestión de reservas para mejorar la experiencia tanto para él como para sus clientes. Considera que un sistema de reserva en línea podría ser una solución efectiva para simplificar el proceso de reserva, mejorar la comunicación y reducir errores humanos. Además, destaca la importancia de características como la visualización en tiempo real de horarios disponibles, notificaciones automáticas y seguridad de datos. Está claro que el propietario está comprometido en mejorar la eficiencia operativa y la experiencia del cliente en su negocio.
 
-Informacion de Contacto : NUMERO GINO
+Informacion de Contacto : +598 99 394 493
 
 # Investigacion
 
