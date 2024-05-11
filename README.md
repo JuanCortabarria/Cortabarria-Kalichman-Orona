@@ -401,4 +401,3 @@ La verdad es que me encantó trabajar con mis compañeros en este proyecto. Aunq
 # Anexo 
 ### Entrevista
 ![Entrevista](Entrevista.png)
->>>>>>> Juan
