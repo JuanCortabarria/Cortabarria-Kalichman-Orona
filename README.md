@@ -32,7 +32,15 @@ La rama main se reservó exclusivamente para los cambios completamente finalizad
 Fuimos por el lado de el alquiler de canchas de padel ya que vemos en la actualidad que este sector esta poco organizado y podemos llegar a aportar mucho.
 Juntos, estamos aprovechando la popularidad del pádel, el deporte de moda en estos días. A pesar de que las personas que jugaban al pádel enfrentaban dificultades al intentar coordinar sus horarios y encontrar canchas disponibles, por eso decidimos hacer una página web para reservar canchas de pádel porque siempre es difícil encontrar un lugar para jugar. Con la página, ahora es más fácil encontrar una cancha disponible cuando queremos jugar. Esto les ahorra tiempo y les quita la preocupación de si habrá lugar.
 
-### Entrevista | Investigacion
+### Entrevista 
+
+Introducción:
+En esta entrevista, exploramos los desafíos que enfrenta un propietario de una cancha de pádel en la gestión de reservas y horarios de sus clientes. El propietario destaca la dificultad de coordinar horarios para evitar conflictos y reservas duplicadas, así como la necesidad de mejorar la comunicación con los clientes. Considera la implementación de un sistema de reserva en línea como una posible solución para optimizar este proceso y mejorar la eficiencia operativa de su negocio.
+
+Conclusiones:
+El propietario de la cancha de pádel reconoce la importancia de abordar los desafíos en la gestión de reservas para mejorar la experiencia tanto para él como para sus clientes. Considera que un sistema de reserva en línea podría ser una solución efectiva para simplificar el proceso de reserva, mejorar la comunicación y reducir errores humanos. Además, destaca la importancia de características como la visualización en tiempo real de horarios disponibles, notificaciones automáticas y seguridad de datos. Está claro que el propietario está comprometido en mejorar la eficiencia operativa y la experiencia del cliente en su negocio.
+
+# Investigacion
 
 Basándose en la entrevista, se pueden identificar varias problemáticas:
 
