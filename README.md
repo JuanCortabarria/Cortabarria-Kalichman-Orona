@@ -24,8 +24,6 @@ para manejar nuestras actualizaciones y colaboración de manera eficiente.
 
 # VERSIONADO
 
-Optamos por una estrategia de ramificación que involucra la creación de cuatro ramas principales, correspondientes a cada uno de los integrantes del equipo. Esto permitió que cada miembro trabajara de manera independiente sin interferir con el progreso de los demás, utilizando los comandos git branch y git merge para gestionar las integraciones de sus contribuciones.
-La rama main se reservó exclusivamente para los cambios completamente finalizados y revisados, asegurando que todo lo que se merge a esta rama esté listo para producción y no requiera modificaciones adicionales. Esta metodología no solo mejoró la organización del trabajo sino que también maximizó la eficiencia al permitir el desarrollo en paralelo sin comprometer la integridad del código en la rama principal.
 
 # ELICITACIÓN
 
