@@ -39,7 +39,7 @@ En esta entrevista, exploramos los desafíos que enfrenta un propietario de una 
 Conclusiones:
 El propietario de la cancha de pádel reconoce la importancia de abordar los desafíos en la gestión de reservas para mejorar la experiencia tanto para él como para sus clientes. Considera que un sistema de reserva en línea podría ser una solución efectiva para simplificar el proceso de reserva, mejorar la comunicación y reducir errores humanos. Además, destaca la importancia de características como la visualización en tiempo real de horarios disponibles, notificaciones automáticas y seguridad de datos. Está claro que el propietario está comprometido en mejorar la eficiencia operativa y la experiencia del cliente en su negocio.
 
-Informacion de Contacto : NUMERO GINO
+Informacion de Contacto : +598 99 394 493
 
 # Investigacion
 
