@@ -90,12 +90,12 @@ El objetivo es crear una experiencia que sea motivadora, divertida y que fomente
 
 # Modelado de usuarios del sistema
 ## User Persona: Dueño
-![Modelo Conceptual del Problema](perfilGINO.jpg)
+![Modelo Conceptual del Problema](IMG/perfilGINO.jpg)
 ## User Persona: Jugador
-![Modelo Conceptual del Problema](perfilJugador.png)
+![Modelo Conceptual del Problema](IMG/perfilJugador.png)
 
 # Modelo Conceptual del Problema
-![Modelo Conceptual del Problema](ModeloConceptual.jpg)
+![Modelo Conceptual del Problema](IMG/ModeloConceptual.jpg)
 
 
 # ESPECIFICACIÓN
@@ -162,7 +162,7 @@ Cursos alternativos:
 Referencias a Requerimientos:
 - Listado de canchas (RF3)
 #### Bocetos UI 
-![Modelo Conceptual del Problema](SeleccionarCancha.png)
+![Modelo Conceptual del Problema](IMG/SeleccionarCancha.png)
 
 ### Titulo: Reserva de Cancha
 
@@ -183,8 +183,8 @@ Referencias a Requerimientos:
 - Registro de Reservas (RF3)
 - Notificación de Confirmación(RF5)
 #### Bocetos UI
-![Modelo Conceptual del Problema](reservaCancha.png)
-![Modelo Conceptual del Problema](confirmacionReserva.png)
+![Modelo Conceptual del Problema](IMG/reservaCancha.png)
+![Modelo Conceptual del Problema](IMG/confirmacionReserva.png)
 
 ### Titulo: Envío de Consulta sobre Reservas
 
@@ -204,7 +204,7 @@ Referencias a Requerimientos:
 - Listado de canchas (RF3)
 
 #### Bocetos UI 
-![Modelo Conceptual del Problema](reservaCancha2.png)
+![Modelo Conceptual del Problema](IMG/reservaCancha2.png)
 
 # VALIDACIÓN Y VERIFICACIÓN
 
@@ -274,4 +274,4 @@ La verdad es que me encantó trabajar con mis compañeros en este proyecto. Aunq
 
 # Anexo 
 ### Entrevista
-![Entrevista](Entrevista.png)
+![Entrevista](IMG/Entrevista.png)
