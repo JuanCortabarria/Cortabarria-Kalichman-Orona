@@ -279,7 +279,4 @@ Me parece que nos llevamos muy bien como equipo. Aunque no nos conocíamos mucho
 Reflexión individual (Juan Cortabarria):
 La verdad es que me encantó trabajar con mis compañeros en este proyecto. Aunque no nos conocíamos mucho al principio, nos llevamos muy bien y pudimos trabajar juntos sin problemas. Además, el tema que elegimos fue perfecto para todos nosotros, lo que hizo que todo fuera mucho más fácil.Al principio, me sentía un poco abrumado porque no era fácil adaptarse a github pero con la ayuda de mis compañeros y un poco de práctica, pude dominarla rápidamente.  Estoy especialmente contento de haber aprendido a usar esta nueva herramienta, GitHub, y de poder aplicarla en nuestro proyecto. 
 
-# Recursos adicionales
-- [Documentación de HTML](https://www.w3.org/html/)
-- [Documentación de Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
-- [WAVE Evaluation Tool](https://chromewebstore.google.com/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh)
+
