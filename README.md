@@ -24,7 +24,7 @@ para manejar nuestras actualizaciones y colaboración de manera eficiente.
 
 # VERSIONADO
 
-El equipo opto por el uso de dos ramas, la rama principal "main" que fue la mas usada debido a que al comienzo no se nos hizo facil el empleo de el comando git branch
+El equipo opto por el uso de dos ramas, la rama principal "main" que fue la mas usada debido a que al comienzo no se nos hizo facil el empleo de el comando git branch, luego se utilizo una rama "develop" para el uso de 
 
 # ELICITACIÓN
 
