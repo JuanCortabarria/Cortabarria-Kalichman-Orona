@@ -24,6 +24,7 @@ para manejar nuestras actualizaciones y colaboración de manera eficiente.
 
 # VERSIONADO
 
+El equipo opto por el uso
 
 # ELICITACIÓN
 
