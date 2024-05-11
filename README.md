@@ -91,12 +91,12 @@ El objetivo es crear una experiencia que sea motivadora, divertida y que fomente
 
 # Modelado de usuarios del sistema
 ## User Persona: Dueño
-![Modelo Conceptual del Problema](perfilGINO.png)
+![Modelo Conceptual del Problema](perfilGINO.jpg)
 ## User Persona: Jugador
 ![Modelo Conceptual del Problema](perfilJugador.png)
 
 # Modelo Conceptual del Problema
-![Modelo Conceptual del Problema](MapaConceptual.png)
+![Modelo Conceptual del Problema](ModeloConceptual.jpg)
 
 
 # ESPECIFICACIÓN
