@@ -1,0 +1,137 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-color: rgb(128, 128, 128);
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2e2d2d;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    color: #f8f9fa; /* Texto claro */
+}
+
+nav ul {
+    background-color: #343a40; /* Gris oscuro */
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f8f9fa; /* Blanco */
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff; /* Blanco */
+    border: 1px solid #ccc; /* Gris claro */
+    border-radius: 10px;
+}
+
+section h2 {
+    font-size: 24px;
+    color: #333; /* Texto oscuro */
+}
+
+#Consulta, #ReservadeCancha {
+    font-size: 24px;
+    color: #ffffff; /* Texto oscuro */
+}
+
+form label {
+    font-size: 16px;
+    display: block;
+    margin: 10px 0;
+    color: #ffffff; /* Gris oscuro */
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da; /* Gris claro */
+    background-color: s#e9ecef; /* Gris suave */
+    color: #0a0a0a; /* Texto oscuro */
+    border-radius: 4px;
+}
+
+
+nav button {
+    background-color: #00509e; /* Azul más oscuro */
+    color: #fff; /* Blanco para mejorar contraste */
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: left;
+    margin: 10px auto;
+}
+
+nav button:hover {
+    background-color: #003d7a; /* Azul aún más oscuro para hover */
+}
+
+form button {
+   background-color: #00509e;
+    color: #fff; /* Blanco para mejorar contraste */
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+}
+
+form button:hover {
+    background-color: #003d7a; /* Azul aún más oscuro para hover */
+}
+
+.cancha {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ced4da; /* Gris claro */
+    border-radius: 10px;
+    margin: 10px 0;
+    background-color: #fff; /* Blanco */
+}
+
+
+
+.cancha-info {
+    flex: 1;
+    margin-left: 20px;
+    color: #495057; /* Gris oscuro */
+}
+
+.cancha-info h3 {
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.cancha-info p {
+    margin: 0;
+}
+
+
+#reserva{
+    background-color: #2e2d2d;
+    color: #000000;
+}

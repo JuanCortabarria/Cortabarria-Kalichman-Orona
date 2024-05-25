@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva de Canchas de Padel</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Reserva de Canchas de Padel</h1>
+    </header>
+
+    <main>
+        <section id="listado-canchas">
+            
+            <div class="cancha">
+                <img src="imagnes/CHR_6337.jpg" width="30%" alt="Cancha de Padel 1" />
+                <div class="cancha-info">
+                    <h2 href="#"><b>World Padel Center Montevideo</b></h2>
+
+                    <p>
+                        El World Padel Center Montevideo es un complejo deportivo especializado en pádel ubicado en
+                        Montevideo, Uruguay. Ofrece canchas de pádel de alta calidad para jugadores de todos los
+                        niveles, desde principiantes hasta profesionales. Además de las canchas, el centro puede brindar
+                        servicios como entrenadores, alquiler de equipos, torneos y eventos especiales. Es un lugar
+                        popular para los amantes del pádel en la ciudad, proporcionando un entorno ideal para jugar,
+                        aprender y disfrutar del deporte.
+                    </p>
+                    <br>
+                    <br>
+                    <a style="font-size: 19px;"><b>Precio:</b></a>
+                    <a class="p-cancha1" style="text-decoration-line: none;"> $2100</a>
+                    <br>
+                    <br>
+                    <a style="font-size: 19px;"><b>Zona:</b></a>
+                    <a class="u-cancha1" style="text-decoration-line: none;">Estado de Israel 2800</a>
+                    <br>
+                    <br>
+
+
+                    <nav>
+                        <button onclick="seleccionarCancha('World Padel Center Montevideo')">Reserva de Cancha</button>
+                    </nav>
+
+                </div>
+
+            </div>
+
+            <div class="cancha">
+                <img src="imagnes/20190406_195247.jpg" width="30%" alt="Cancha de Padel 1" />
+                <div class="cancha-info">
+                    <h2 href="#"><b>Indoor Padel Montevideo</b></h2>
+
+                    <p>
+
+                        Indoor Padel Montevideo es un complejo deportivo en Montevideo, Uruguay, especializado en pádel
+                        bajo techo. Ofrece canchas de pádel de alta calidad en un entorno protegido de las condiciones
+                        climáticas, permitiendo a los jugadores practicar y competir en cualquier época del año. El
+                        centro puede proporcionar servicios como alquiler de equipos, clases con entrenadores
+                        profesionales y organización de torneos. Además, suele contar con comodidades como vestuarios y
+                        áreas de descanso para los jugadores. Indoor Padel Montevideo es un lugar ideal para los amantes
+                        del pádel que buscan un espacio cómodo y bien equipado para disfrutar de este deporte.
+                    </p>
+                    <br>
+                    <br>
+                    <a style="font-size: 19px;"><b>Precio:</b></a>
+                    <a class="p-cancha1" style="text-decoration-line: none;"> $1400</a>
+                    <br>
+                    <br>
+                    <a style="font-size: 19px;"><b>Zona:</b></a>
+                    <a class="u-cancha1" style="text-decoration-line: none;">Dr. Andrés Crovetto 4980</a>
+                    <br>
+                    <br>
+
+
+                    <nav>
+                        <button onclick="seleccionarCancha('Indoor Padel Montevideo')">Reserva de Cancha</button>
+                    </nav>
+
+                </div>
+
+            </div>
+
+            <div class="cancha">
+                <img src="imagnes/imagen-Reducto-Padel-Center.webp" width="30%" alt="Cancha de Padel 3" />
+                <div class="cancha-info">
+
+                    <h2 href="#"><b>Reducto Padel Center</b></h2>
+
+                    <p>
+
+                        Reducto Padel Center es un complejo deportivo de pádel en Montevideo, Uruguay. Ofrece canchas de
+                        pádel de calidad para jugadores de todos los niveles. Además, cuenta con servicios como alquiler
+                        de equipos, clases con entrenadores y organización de torneos. Es un lugar ideal para los
+                        amantes del pádel en la ciudad.
+                    </p>
+                    <br>
+                    <br>
+                    <a style="font-size: 19px;"><b>Precio:</b></a>
+                    <a class="p-cancha1" style="text-decoration-line: none;"> $1900</a>
+                    <br>
+                    <br>
+                    <a style="font-size: 19px;"><b>Zona:</b></a>
+                    <a class="u-cancha1" style="text-decoration-line: none;">Dr. Alfredo García Morales 1320</a>
+                    <br>
+                    <br>
+
+
+                    <nav>
+                        <button onclick="seleccionarCancha('Reducto Padel Center')">Reserva de Cancha</button>
+                    </nav>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section id="reserva" style="display: flex;">
+            <!-- Sección de Reserva de Cancha -->
+            <div id="reserva-cancha" style="flex: 1; margin-right: 40px;">
+                <h2 id="ReservadeCancha">Reserva de Cancha</h2>
+                <form id="reserva-form">
+                    <div>
+                        <label for="cancha">Cancha:</label>
+                        <select id="cancha" name="cancha">
+                            <option value="World Padel Center Montevideo">World Padel Center Montevideo</option>
+                            <option value="Indoor Padel Montevideo">Indoor Padel Montevideo</option>
+                            <option value="Reducto Padel Center">Reducto Padel Center</option>
+                        </select>
+
+                    </div>
+                    <div>
+                        <label for="fecha">Fecha:</label>
+                        <input type="date" id="fecha" name="fecha" required>
+                    </div>
+                    <div>
+                        <label for="hora">Hora:</label>
+                        <select id="hora" name="hora" required>
+                            <option value="00:00">00:00</option>
+                            <option value="01:00">01:00</option>
+                            <option value="08:00">08:00</option>
+                            <option value="09:00">09:00</option>
+                            <option value="10:00">10:00</option>
+                            <option value="11:00">11:00</option>
+                            <option value="12:00">12:00</option>
+                            <option value="13:00">13:00</option>
+                            <option value="14:00">14:00</option>
+                            <option value="15:00">15:00</option>
+                            <option value="16:00">16:00</option>
+                            <option value="17:00">17:00</option>
+                            <option value="18:00">18:00</option>
+                            <option value="19:00">19:00</option>
+                            <option value="20:00">20:00</option>
+                            <option value="21:00">21:00</option>
+                            <option value="22:00">22:00</option>
+                            <option value="23:00">23:00</option>
+                        </select>
+
+                    </div>
+                    <div>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <br>
+                    <button type="submit" style="width: 50%; display: block; margin: 0 auto;">Reservar</button>
+                    <button type="button" id="historial-btn" style="width: 50%; display: block; margin: 10px auto;">Ver Historial de Reservas</button>
+                    
+                </form>
+            </div>
+
+            <!-- Sección de Consulta -->
+            <div id="form-consulta-container" style="flex: 1; margin-left: 30px;">
+                <h2 id="Consulta">Consulta</h2>
+                <form id="form-consulta">
+                    <div>
+                        <label for="nombreConsulta">Nombre:</label>
+                        <input type="text" required name="nombreConsulta" id="nombreConsulta"
+                            style="width: 95%; margin-bottom: 10px;">
+                    </div>
+                    <div>
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" required name="apellido" id="apellido"
+                            style="width: 95%; margin-bottom: 10px;">
+                    </div>
+                    <div>
+                        <label for="correo">Correo electrónico:</label>
+                        <input type="email" required name="correo" id="correo" style="width: 95%; margin-bottom: 10px;">
+                    </div>
+                    <div>
+                        <label for="consulta">Consulta:</label>
+                        <textarea required name="consulta" id="consulta"
+                            style="width: 95%; margin-bottom: 10px; height: 80px;"></textarea>
+                    </div>
+                    <button type="submit" style="width: 50%; display: block; margin: 0 auto;">Enviar</button>
+                </form>
+
+            
+            </div>
+        </section>
+       
+    </main>
+</body>
+
+</html>
