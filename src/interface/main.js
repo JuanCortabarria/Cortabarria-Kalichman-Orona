@@ -1,4 +1,64 @@
+
+import { Canchas } from "../domain/canchas.js";
+import { ListaCanchas } from "../domain/listaCanchas.js";
+import { Reservas } from "../domain/reservas.js";
+import { ListaReservas } from "../domain/listaReservas.js";
+
+const mainListaCanchas = new ListaCanchas();
+const mainListaReservas = new ListaReservas();
+
 document.addEventListener("DOMContentLoaded", function () {
+    // Formulario de canchas
+    const btnAddCancha = document.getElementById('btn-add-cancha');
+    const inpNombreCancha = document.getElementById('inp-nombre-cancha');
+    const inpPrecioCancha = document.getElementById('inp-precio-cancha');
+    const inpUbicacionCancha = document.getElementById('inp-ubicacion-cancha');
+    const inpDescripcionCancha = document.getElementById('inp-descripcion-cancha');
+
+    btnAddCancha.addEventListener('click', () => {
+        const nuevaCancha = new Canchas(inpNombreCancha.value, parseFloat(inpPrecioCancha.value), inpUbicacionCancha.value, inpDescripcionCancha.value);
+        const canchasErrorContainer = document.getElementById("add-canchas-error");
+        const canchasError = document.getElementById("add-canchas-error-msg");
+
+        try {
+            mainListaCanchas.add(nuevaCancha);
+            clearCanchaInputs();
+            canchasErrorContainer.classList.add("d-none");
+            loadCanchaList(nuevaCancha);
+        } catch (error) {
+            canchasErrorContainer.classList.remove("d-none");
+            canchasError.innerText = error.message;
+        }
+    });
+
+    function clearCanchaInputs() {
+        inpNombreCancha.value = "";
+        inpPrecioCancha.value = "";
+        inpUbicacionCancha.value = "";
+        inpDescripcionCancha.value = "";
+    }
+
+    function loadCanchaList(nuevaCancha) {
+        const canchasList = document.getElementById("canchas-list");
+        const canchasContainer = document.getElementById("canchas");
+        const emptyList = document.getElementById("empty-canchas-list");
+
+        emptyList.classList.add('d-none');
+        canchasContainer.classList.remove("d-none");
+        let li = document.createElement("li");
+        li.classList.add("list-group-item");
+        li.innerText = nuevaCancha.toString();
+        canchasList.appendChild(li);
+    }
+
+    inpDescripcionCancha.addEventListener("keypress", function(event) {
+        if (event.key === "Enter") {
+            event.preventDefault();
+            btnAddCancha.click();
+        }
+    });
+
+    // Formulario de reservas
     const reservaForm = document.getElementById("reserva-form");
 
     reservaForm.addEventListener("submit", function (event) {
