@@ -1,7 +1,7 @@
 
 import { Canchas } from "../domain/canchas.js";
 import { ListaCanchas } from "../domain/listaCanchas.js";
-import { Reservas } from "../domain/reservas.js";
+import { Reservas } from "../domain/Reservas.js";
 import { ListaReservas } from "../domain/listaReservas.js";
 
 const mainListaCanchas = new ListaCanchas();
