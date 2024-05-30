@@ -42,8 +42,12 @@ export class reservas {
       if (this.#cancha === undefined || this.#cancha === null || this.#cancha === '') {
         throw new Error('El cancha del país no puede ser vacío');
       }
-      //completar con los atributos que faltan
+      if (this.#dia === undefined || this.#dia === null || this.#dia === ''){
+        throw new Error('Ingrese un dia valido');
+      }
+      if (this.#hora === undefined || this.#hora === null || this.#hora === ''){
+        throw new Error('Ingrese un dia valida');
+      }
       return true;
     }
-    //validaciones
 }
