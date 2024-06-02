@@ -1,66 +1,21 @@
+// Función para seleccionar una cancha y cambiar a la pestaña de reserva
+function seleccionarCancha(nombreCancha) {
+    // Guardar el nombre de la cancha seleccionada en una variable global
+    window.nombreCanchaSeleccionada = nombreCancha;
 
-import { Canchas } from "../domain/canchas.js";
-import { ListaCanchas } from "../domain/listaCanchas.js";
-import { Reservas } from "../domain/Reservas.js";
-import { ListaReservas } from "../domain/listaReservas.js";
+    // Cambiar a la pestaña de reserva
+    const reservaTab = document.getElementById("nav-reserva-tab");
+    reservaTab.click();
 
-const mainListaCanchas = new ListaCanchas();
-const mainListaReservas = new ListaReservas();
+    // Actualizar el valor del campo de selección de cancha en el formulario de reserva
+    const canchaSelect = document.getElementById("cancha");
+    canchaSelect.value = nombreCancha;
+}
 
 document.addEventListener("DOMContentLoaded", function () {
-    // Formulario de canchas
-    const btnAddCancha = document.getElementById('btn-add-cancha');
-    const inpNombreCancha = document.getElementById('inp-nombre-cancha');
-    const inpPrecioCancha = document.getElementById('inp-precio-cancha');
-    const inpUbicacionCancha = document.getElementById('inp-ubicacion-cancha');
-    const inpDescripcionCancha = document.getElementById('inp-descripcion-cancha');
 
-    btnAddCancha.addEventListener('click', () => {
-        const nuevaCancha = new Canchas(inpNombreCancha.value, parseFloat(inpPrecioCancha.value), inpUbicacionCancha.value, inpDescripcionCancha.value);
-        const canchasErrorContainer = document.getElementById("add-canchas-error");
-        const canchasError = document.getElementById("add-canchas-error-msg");
-
-        try {
-            mainListaCanchas.add(nuevaCancha);
-            clearCanchaInputs();
-            canchasErrorContainer.classList.add("d-none");
-            loadCanchaList(nuevaCancha);
-        } catch (error) {
-            canchasErrorContainer.classList.remove("d-none");
-            canchasError.innerText = error.message;
-        }
-    });
-
-    function clearCanchaInputs() {
-        inpNombreCancha.value = "";
-        inpPrecioCancha.value = "";
-        inpUbicacionCancha.value = "";
-        inpDescripcionCancha.value = "";
-    }
-
-    function loadCanchaList(nuevaCancha) {
-        const canchasList = document.getElementById("canchas-list");
-        const canchasContainer = document.getElementById("canchas");
-        const emptyList = document.getElementById("empty-canchas-list");
-
-        emptyList.classList.add('d-none');
-        canchasContainer.classList.remove("d-none");
-        let li = document.createElement("li");
-        li.classList.add("list-group-item");
-        li.innerText = nuevaCancha.toString();
-        canchasList.appendChild(li);
-    }
-
-    inpDescripcionCancha.addEventListener("keypress", function(event) {
-        if (event.key === "Enter") {
-            event.preventDefault();
-            btnAddCancha.click();
-        }
-    });
-
-    // Formulario de reservas
+    // Agregar evento de envío para el formulario de reserva
     const reservaForm = document.getElementById("reserva-form");
-
     reservaForm.addEventListener("submit", function (event) {
         event.preventDefault();
 
@@ -106,6 +61,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
+    // Función para mostrar el historial de reservas
     function mostrarHistorialReservas() {
         const reservas = JSON.parse(localStorage.getItem("reservas")) || [];
 
@@ -120,18 +76,15 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
+    // Agregar evento de clic al botón de historial de reservas
     const historialBtn = document.getElementById("historial-btn");
     historialBtn.addEventListener("click", mostrarHistorialReservas);
 
+    // Agregar evento de envío para el formulario de consulta
     const formConsulta = document.getElementById("form-consulta");
-    formConsulta.addEventListener('submit', function (event) {
+    formConsulta.addEventListener("submit", function (event) {
         event.preventDefault();
-        alert('Su consulta fue enviada, le responderemos a la brevedad.');
+        alert("Su consulta fue enviada, le responderemos a la brevedad.");
         formConsulta.reset();
     });
 });
-
-function seleccionarCancha(nombreCancha) {
-    document.getElementById('cancha').value = nombreCancha;
-    window.location.href = '#reserva-cancha'; // Dirige al formulario de reserva de cancha
-}
