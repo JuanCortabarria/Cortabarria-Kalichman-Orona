@@ -13,7 +13,6 @@ function seleccionarCancha(nombreCancha) {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-
     // Agregar evento de envío para el formulario de reserva
     const reservaForm = document.getElementById("reserva-form");
     reservaForm.addEventListener("submit", function (event) {
@@ -48,16 +47,16 @@ document.addEventListener("DOMContentLoaded", function () {
             });
 
             if (reservaRepetida) {
-                alert("La cancha no está disponible en ese horario. Por favor, elige otro horario o cancha.");
+                mostrarModal("Error de Reserva", "La cancha no está disponible en ese horario. Por favor, elige otro horario o cancha.");
             } else {
                 reservas.push(reservaData);
                 localStorage.setItem("reservas", JSON.stringify(reservas));
-                const mensaje = `Reserva realizada con éxito:\n\nCancha: ${cancha}\nFecha: ${fecha}\nHora: ${hora}\nNombre: ${nombre}\nEmail: ${email}\n\n¡Disfruta tu juego!`;
-                alert(mensaje);
+                const mensaje = `Reserva realizada con éxito:<br>Cancha: ${cancha}<br>Fecha: ${fecha}<br>Hora: ${hora}<br>Nombre: ${nombre}<br>Email: ${email}<br>¡Disfruta tu juego!`;
+                mostrarModal("Reserva Exitosa", mensaje);
                 reservaForm.reset();
             }
         } else {
-            alert("La cancha no está disponible en ese horario. Por favor, elige otro horario o cancha.");
+            mostrarModal("Error de Reserva", "La cancha no está disponible en ese horario. Por favor, elige otro horario o cancha.");
         }
     });
 
@@ -66,13 +65,13 @@ document.addEventListener("DOMContentLoaded", function () {
         const reservas = JSON.parse(localStorage.getItem("reservas")) || [];
 
         if (reservas.length === 0) {
-            alert("No hay reservas en el historial.");
+            mostrarModal("Historial de Reservas", "No hay reservas en el historial.");
         } else {
-            let mensajeHistorial = "Historial de Reservas:\n\n";
+            let mensajeHistorial = "Historial de Reservas:<br><br>";
             reservas.forEach(reserva => {
-                mensajeHistorial += `Cancha: ${reserva.cancha}\nFecha: ${reserva.fecha}\nHora: ${reserva.hora}\nNombre: ${reserva.nombre}\nEmail: ${reserva.email}\n\n`;
+                mensajeHistorial += `Cancha: ${reserva.cancha}<br>Fecha: ${reserva.fecha}<br>Hora: ${reserva.hora}<br>Nombre: ${reserva.nombre}<br>Email: ${reserva.email}<br><br>`;
             });
-            alert(mensajeHistorial);
+            mostrarModal("Historial de Reservas", mensajeHistorial);
         }
     }
 
@@ -84,7 +83,17 @@ document.addEventListener("DOMContentLoaded", function () {
     const formConsulta = document.getElementById("form-consulta");
     formConsulta.addEventListener("submit", function (event) {
         event.preventDefault();
-        alert("Su consulta fue enviada, le responderemos a la brevedad.");
+        mostrarModal("Consulta Enviada", "Su consulta fue enviada, le responderemos a la brevedad.");
         formConsulta.reset();
     });
+
+    // Función para mostrar un modal
+    function mostrarModal(titulo, mensaje) {
+        const modalTitle = document.getElementById("modalTitle");
+        const modalBody = document.getElementById("modalBody");
+        modalTitle.innerHTML = titulo;
+        modalBody.innerHTML = mensaje;
+        const myModal = new bootstrap.Modal(document.getElementById("myModal"));
+        myModal.show();
+    }
 });
