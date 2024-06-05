@@ -6,3 +6,58 @@ img {
     border-radius: 10px 10px 0 0;
 }
 
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container for positioning */
+.container2 {
+    display: flex;
+    justify-content: flex-end; /* Aligns the content to the right */
+    align-items: flex-start;   /* Aligns the content to the top */
+             /* Full viewport height */
+    padding: 10px;             /* Optional padding */
+    position: relative;
+}
+
+/* User info styling */
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: white;  /* Background color */
+    border-radius: 8px;       /* Rounded corners */
+    padding: 10px;            /* Padding around content */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+/* Avatar styling */
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* Details styling */
+.details {
+    font-family: 'Arial', sans-serif;
+    color: #333;             /* Text color */
+}
+
+/* Dark theme text */
+.details .joined-date {
+    font-size: 0.875rem;     /* Text size for date */
+    color: #777;             /* Color for date */
+}
+
+/* Optional dark mode styles */
+body.dark .details {
+    color: #fff;
+}
+
+body.dark .details .joined-date {
+    color: #bbb;
+}

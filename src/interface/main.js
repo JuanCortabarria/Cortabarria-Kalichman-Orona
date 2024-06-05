@@ -10,6 +10,7 @@ function seleccionarCancha(nombreCancha) {
     // Actualizar el valor del campo de selección de cancha en el formulario de reserva
     const canchaSelect = document.getElementById("cancha");
     canchaSelect.value = nombreCancha;
+    
 }
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -96,4 +97,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const myModal = new bootstrap.Modal(document.getElementById("myModal"));
         myModal.show();
     }
+    
 });
+
+  
