@@ -1,9 +1,9 @@
 // reservas.test.js
 import { reservas } from './reservas';
 
-describe('reservas', () => {
-  test('should create a valid reservas object', () => {
-    const reserva = new reservas('Cancha 1');
+describe('reservas class tests', () => {
+  test('Create a valid reservas object', () => {
+    let reserva = new reservas('Cancha 1');
     reserva.setFecha('2023-06-12');
     reserva.setHora('10:00');
     reserva.setNombreCliente('Juan Perez');
@@ -16,14 +16,15 @@ describe('reservas', () => {
     expect(reserva.isValid()).toBe(true);
   });
 
-  test('should throw error for invalid reservas object', () => {
-    const reserva = new reservas('');
+  test('Throw error for invalid reservas object', () => {
+    let reserva = new reservas('');
     reserva.setFecha('');
     reserva.setHora('');
     reserva.setNombreCliente('');
     reserva.setMailCliente('');
+    let expectedErrorMessage = 'La cancha no puede ser vacía';
     expect(() => {
       reserva.isValid();
-    }).toThrow();
+    }).toThrow(expectedErrorMessage);
   });
 });
