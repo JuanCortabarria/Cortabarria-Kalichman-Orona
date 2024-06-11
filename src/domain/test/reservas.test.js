@@ -1,63 +1,29 @@
-import { Country } from "../country";
+// reservas.test.js
+import { reservas } from './reservas';
 
-describe('Country class tests', () => {
+describe('reservas', () => {
+  test('should create a valid reservas object', () => {
+    const reserva = new reservas('Cancha 1');
+    reserva.setFecha('2023-06-12');
+    reserva.setHora('10:00');
+    reserva.setNombreCliente('Juan Perez');
+    reserva.setMailCliente('juan@example.com');
+    expect(reserva.getCancha()).toBe('Cancha 1');
+    expect(reserva.getFecha()).toBe('2023-06-12');
+    expect(reserva.getHora()).toBe('10:00');
+    expect(reserva.getNombreCliente()).toBe('Juan Perez');
+    expect(reserva.getMailCliente()).toBe('juan@example.com');
+    expect(reserva.isValid()).toBe(true);
+  });
 
-    test ("Create a country", () =>{
-        let country = new Country("Uruguay");
-        let countryName = country.getNombre();
-        let expectedName = "Uruguay";
-        expect(countryName).toBe(expectedName);
-    });
-
-    test ("Invalid null country name", () =>{
-        let country = new Country(null);
-        let expectedErrorMessage = "El nombre del país no puede ser vacío";
-        expect(() => country.isValid()).toThrow(expectedErrorMessage);
-    });
-
-    test ("Invalid undefined country name", () =>{
-        let country = new Country(undefined);
-        let expectedErrorMessage = "El nombre del país no puede ser vacío";
-        expect(() => country.isValid()).toThrow(expectedErrorMessage);
-    });
-
-    test ("Invalid empty country name", () =>{
-        let country = new Country("");
-        let expectedErrorMessage = "El nombre del país no puede ser vacío";
-        expect(() => country.isValid()).toThrow(expectedErrorMessage);
-    });
-
-    test ("Invalid null country capital", () =>{
-        let country = new Country("Uruguay");
-        country.setCapital(null);
-        let expectedErrorMessage = "La capital del país no puede ser vacía";
-        expect(() => country.isValid()).toThrow(expectedErrorMessage);
-    });
-
-    test ("Invalid undefined country capital", () =>{
-        let country = new Country("Uruguay");
-        country.setCapital(undefined);
-        let expectedErrorMessage = "La capital del país no puede ser vacía";
-        expect(() => country.isValid()).toThrow(expectedErrorMessage);
-    });
-
-    test ("Invalid empty country capital", () =>{
-        let country = new Country("Uruguay");
-        country.setCapital("");
-        let expectedErrorMessage = "La capital del país no puede ser vacía";
-        expect(() => country.isValid()).toThrow(expectedErrorMessage);
-    });
-
-    test ("Valid country", () =>{
-        let country = new Country("Uruguay");
-        country.setCapital("Montevideo");
-        expect(country.isValid()).toBe(true);
-    });
-
-    test ("ToString country", () =>{
-        let country = new Country("Uruguay");
-        country.setCapital("Montevideo");
-        let expectedString = "País: Uruguay - capital: Montevideo";
-        expect(country.toString()).toBe(expectedString);
-    });
+  test('should throw error for invalid reservas object', () => {
+    const reserva = new reservas('');
+    reserva.setFecha('');
+    reserva.setHora('');
+    reserva.setNombreCliente('');
+    reserva.setMailCliente('');
+    expect(() => {
+      reserva.isValid();
+    }).toThrow();
+  });
 });
