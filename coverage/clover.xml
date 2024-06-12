@@ -1,6 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1718139114860" clover="3.2.0">
-  <project timestamp="1718139114860" name="All files">
-    <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0" elements="0" coveredelements="0" complexity="0" loc="0" ncloc="0" packages="0" files="0" classes="0"/>
+<coverage generated="1718221158844" clover="3.2.0">
+  <project timestamp="1718221158844" name="All files">
+    <metrics statements="46" coveredstatements="33" conditionals="41" coveredconditionals="33" methods="20" coveredmethods="15" elements="107" coveredelements="81" complexity="0" loc="46" ncloc="46" packages="1" files="3" classes="3"/>
+    <file name="canchas.js" path="C:\Users\Acer\Desktop\FIS\Cortabarria-Kalichman-Orona\src\domain\canchas.js">
+      <metrics statements="24" coveredstatements="15" conditionals="23" coveredconditionals="19" methods="11" coveredmethods="6"/>
+      <line num="8" count="4" type="stmt"/>
+      <line num="9" count="4" type="stmt"/>
+      <line num="10" count="4" type="stmt"/>
+      <line num="11" count="4" type="stmt"/>
+      <line num="15" count="4" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="23" count="1" type="stmt"/>
+      <line num="27" count="1" type="stmt"/>
+      <line num="31" count="0" type="stmt"/>
+      <line num="35" count="0" type="stmt"/>
+      <line num="39" count="0" type="stmt"/>
+      <line num="43" count="0" type="stmt"/>
+      <line num="47" count="0" type="stmt"/>
+      <line num="51" count="4" type="cond" truecount="5" falsecount="0"/>
+      <line num="52" count="1" type="stmt"/>
+      <line num="54" count="3" type="cond" truecount="1" falsecount="1"/>
+      <line num="55" count="0" type="stmt"/>
+      <line num="57" count="3" type="cond" truecount="5" falsecount="1"/>
+      <line num="58" count="0" type="stmt"/>
+      <line num="60" count="3" type="cond" truecount="4" falsecount="1"/>
+      <line num="61" count="0" type="stmt"/>
+      <line num="63" count="3" type="cond" truecount="4" falsecount="1"/>
+      <line num="64" count="0" type="stmt"/>
+      <line num="66" count="3" type="stmt"/>
+    </file>
+    <file name="clientes.js" path="C:\Users\Acer\Desktop\FIS\Cortabarria-Kalichman-Orona\src\domain\clientes.js">
+      <metrics statements="15" coveredstatements="12" conditionals="14" coveredconditionals="11" methods="5" coveredmethods="5"/>
+      <line num="7" count="2" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="15" count="2" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="23" count="2" type="cond" truecount="5" falsecount="0"/>
+      <line num="24" count="1" type="stmt"/>
+      <line num="26" count="1" type="cond" truecount="4" falsecount="1"/>
+      <line num="27" count="0" type="stmt"/>
+      <line num="31" count="1" type="stmt"/>
+      <line num="32" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="33" count="0" type="stmt"/>
+      <line num="37" count="1" type="stmt"/>
+      <line num="38" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="39" count="0" type="stmt"/>
+      <line num="42" count="1" type="stmt"/>
+    </file>
+    <file name="listaCanchas.js" path="C:\Users\Acer\Desktop\FIS\Cortabarria-Kalichman-Orona\src\domain\listaCanchas.js">
+      <metrics statements="7" coveredstatements="6" conditionals="4" coveredconditionals="3" methods="4" coveredmethods="4"/>
+      <line num="5" count="2" type="stmt"/>
+      <line num="9" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="12" count="2" type="cond" truecount="1" falsecount="1"/>
+      <line num="13" count="2" type="stmt"/>
+      <line num="15" count="0" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
+    </file>
   </project>
 </coverage>

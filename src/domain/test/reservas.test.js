@@ -1,5 +1,5 @@
 // reservas.test.js
-import { reservas } from './reservas';
+import { reservas } from '../reservas';
 
 describe('reservas class tests', () => {
   test('Create a valid reservas object', () => {

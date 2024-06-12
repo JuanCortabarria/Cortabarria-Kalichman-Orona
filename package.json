@@ -6,6 +6,7 @@
   "version": "1.0.0",
   "description": "Para la coordinación y gestión del código fuente, nuestro equipo empleó un repositorio en GitHub, utilizando el comando de (git clone (url del repo)), cada uno de nosotros clonó localmente.\r Para la organización y estructuración del proyecto, se elaboró un archivo README.md que detalla y documenta exhaustivamente el proceso seguido. Posteriormente, dentro de otra carpeta, llamada IMG se Agregaron las imagenes utilizadas.\r Imagenes: \r + User Persona: Dueño\r + User Persona: Jugador\r + User Persona: Modelado Conceptual del sistema a implementar. \r + Bocetos UI\r + Entrevista",
   "main": "index.js",
+  "type": "module",
   "directories": {
     "doc": "docs"
   },
@@ -199,7 +200,7 @@
     "yocto-queue": "^0.1.0"
   },
   "scripts": {
-    "test": "jest --coverage"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage"
   },
   "keywords": [],
   "author": "",
