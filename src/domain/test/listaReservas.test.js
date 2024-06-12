@@ -1,6 +1,6 @@
 // listaReservas.test.js
 import { listaReservas } from '../listaReservas';
-import { reservas } from './reservas';
+import { reservas } from '../reservas';
 
 describe('listaReservas class tests', () => {
   test('Add a valid reserva to the list', () => {
