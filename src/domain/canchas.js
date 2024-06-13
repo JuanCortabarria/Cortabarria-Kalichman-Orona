@@ -1,14 +1,14 @@
-export class Canchas {
+class Canchas {
   #nombre;
   #precio;
   #ubicacion;
   #descripcion;
 
-  constructor(aNombre, aPrecio, aUbicacion, aDescripcion) {
-    this.#nombre = aNombre;
-    this.#precio = aPrecio;
-    this.#ubicacion = aUbicacion;
-    this.#descripcion = aDescripcion;
+  constructor(nombre, precio, ubicacion, descripcion) {
+    this.#nombre = nombre;
+    this.#precio = precio;
+    this.#ubicacion = ubicacion;
+    this.#descripcion = descripcion;
   }
 
   getNombre() {
@@ -25,26 +25,6 @@ export class Canchas {
 
   getDescripcion() {
     return this.#descripcion;
-  }
-
-  setNombre(aNombre) {
-    this.#nombre = aNombre;
-  }
-
-  setPrecio(aPrecio) {
-    this.#precio = aPrecio;
-  }
-
-  setUbicacion(aUbicacion) {
-    this.#ubicacion = aUbicacion;
-  }
-
-  setDescripcion(aDescripcion) {
-    this.#descripcion = aDescripcion;
-  }
-
-  toString() {
-    return `Cancha: ${this.#nombre} - Precio: ${this.#precio} - Ubicación: ${this.#ubicacion} - Descripción: ${this.#descripcion}`;
   }
 
   isValid() {
@@ -65,4 +45,10 @@ export class Canchas {
     }
     return true;
   }
+
+  toString() {
+    return `Cancha: ${this.#nombre} - Precio: ${this.#precio} - Ubicación: ${this.#ubicacion} - Descripción: ${this.#descripcion}`;
+  }
 }
+
+export { Canchas };
