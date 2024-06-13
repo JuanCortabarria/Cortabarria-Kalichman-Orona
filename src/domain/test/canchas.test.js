@@ -98,4 +98,3 @@ describe('Canchas class tests', () => {
     expect(cancha.toString()).toBe(expectedString);
   });
 });
-

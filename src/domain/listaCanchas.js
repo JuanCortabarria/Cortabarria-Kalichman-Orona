@@ -1,22 +1,22 @@
+import { Canchas } from './canchas';
+
 export class ListaCanchas {
-  #canchas;
+    #canchas = [];
 
-  constructor() {
-    this.#canchas = [];
-  }
-
-  add(cancha) {
-    if (this.#canchas.some(c => c.getNombre() === cancha.getNombre())) {
-      throw new Error(`No se pudo agregar. ${cancha.getNombre()} ya está en la lista.`);
+    add(cancha) {
+        if (!(cancha instanceof Canchas)) {
+            throw new Error('Solo se pueden agregar objetos de tipo Canchas');
+        }
+        if (!cancha.isValid()) {
+            throw new Error('Cancha inválida');
+        }
+        if (this.#canchas.some(c => c.getNombre() === cancha.getNombre())) {
+            throw new Error(`No se pudo agregar. Cancha ${cancha.getNombre()} ya está en la lista.`);
+        }
+        this.#canchas.push(cancha);
     }
-    if (cancha.isValid()) {
-      this.#canchas.push(cancha);
-    } else {
-      throw new Error(`No se pudo agregar. La cancha ${cancha.getNombre()} no es válida.`);
-    }
-  }
 
-  getCanchas() {
-    return this.#canchas;
-  }
+    getCanchas() {
+        return this.#canchas;
+    }
 }

@@ -151,4 +151,25 @@ describe('Reservas class tests', () => {
     let expectedString = 'Reserva: Cancha: Cancha 1, Fecha: 2023-06-12, Hora: 10:00, Cliente: Juan Perez, Email: juan@example.com';
     expect(reserva.toString()).toBe(expectedString);
   });
+
+  test('Get nombre cliente', () => {
+    let reserva = new reservas('Cancha 1');
+    reserva.setNombreCliente('Juan Perez');
+    let expectedNombre = 'Juan Perez';
+    expect(reserva.getNombreCliente()).toBe(expectedNombre);
+  });
+
+  test('Get mail cliente', () => {
+    let reserva = new reservas('Cancha 1');
+    reserva.setMailCliente('juan@example.com');
+    let expectedMail = 'juan@example.com';
+    expect(reserva.getMailCliente()).toBe(expectedMail);
+  });
+
+  test('Set cancha', () => {
+    let reserva = new reservas('Cancha 1');
+    reserva.setCancha('Cancha 2');
+    let expectedCancha = 'Cancha 2';
+    expect(reserva.getCancha()).toBe(expectedCancha);
+  });
 });
