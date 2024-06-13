@@ -37,4 +37,18 @@ describe('ListaCanchas class tests', () => {
     expect(canchas[0].getNombre()).toBe('Cancha 1');
     expect(canchas[1].getNombre()).toBe('Cancha 2');
   });
+
+  test('Add an invalid object to the list (not an instance of Canchas)', () => {
+    let listaCanchasInstance = new listaCanchas();
+    let invalidCancha = { nombre: 'Cancha 1', precio: 100, ubicacion: 'Ubicación 1', descripcion: 'Descripción 1' }; // No es una instancia de Canchas
+    let expectedErrorMessage = 'Solo se pueden agregar objetos de tipo Canchas';
+    expect(() => listaCanchasInstance.add(invalidCancha)).toThrow(expectedErrorMessage);
+  });
+
+  test('Add an invalid cancha to the list', () => {
+    let listaCanchasInstance = new listaCanchas();
+    let invalidCancha = new Canchas('Cancha 1', -100, 'Ubicación 1', 'Descripción 1'); // Precio inválido
+    let expectedErrorMessage = 'Cancha inválida';
+    expect(() => listaCanchasInstance.add(invalidCancha)).toThrow(expectedErrorMessage);
+  });
 });

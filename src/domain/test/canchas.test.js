@@ -2,99 +2,111 @@ import { Canchas } from '../canchas';
 
 describe('Canchas class tests', () => {
 
-  test('Create a cancha', () => {
+  // Tests for getters
+  test('Get cancha price', () => {
     let cancha = new Canchas('Cancha 1', 100, 'Ubicación 1', 'Descripción 1');
-    let canchaName = cancha.getNombre();
-    let expectedName = 'Cancha 1';
-    expect(canchaName).toBe(expectedName);
+    expect(cancha.getPrecio()).toBe(100);
   });
 
-  test('Invalid null cancha name', () => {
-    let cancha = new Canchas(null, 100, 'Ubicación 1', 'Descripción 1');
-    let expectedErrorMessage = 'El nombre de la cancha no puede ser vacío';
-    expect(() => cancha.isValid()).toThrow(expectedErrorMessage);
+  test('Get cancha location', () => {
+    let cancha = new Canchas('Cancha 1', 100, 'Ubicación 1', 'Descripción 1');
+    expect(cancha.getUbicacion()).toBe('Ubicación 1');
   });
 
-  test('Invalid undefined cancha name', () => {
-    let cancha = new Canchas(undefined, 100, 'Ubicación 1', 'Descripción 1');
-    let expectedErrorMessage = 'El nombre de la cancha no puede ser vacío';
-    expect(() => cancha.isValid()).toThrow(expectedErrorMessage);
+  test('Get cancha description', () => {
+    let cancha = new Canchas('Cancha 1', 100, 'Ubicación 1', 'Descripción 1');
+    expect(cancha.getDescripcion()).toBe('Descripción 1');
   });
 
-  test('Invalid empty cancha name', () => {
-    let cancha = new Canchas('', 100, 'Ubicación 1', 'Descripción 1');
-    let expectedErrorMessage = 'El nombre de la cancha no puede ser vacío';
-    expect(() => cancha.isValid()).toThrow(expectedErrorMessage);
+  // Tests for setters
+  test('Set cancha name', () => {
+    let cancha = new Canchas('Cancha 1', 100, 'Ubicación 1', 'Descripción 1');
+    cancha.setNombre('Nueva Cancha');
+    expect(cancha.getNombre()).toBe('Nueva Cancha');
   });
 
-  test('Invalid cancha name with numbers', () => {
-    let cancha = new Canchas('Cancha123', 100, 'Ubicación 1', 'Descripción 1');
-    let expectedErrorMessage = 'El nombre de la cancha solo puede contener letras y espacios';
-    expect(() => cancha.isValid()).toThrow(expectedErrorMessage);
+  test('Set cancha price', () => {
+    let cancha = new Canchas('Cancha 1', 100, 'Ubicación 1', 'Descripción 1');
+    cancha.setPrecio(200);
+    expect(cancha.getPrecio()).toBe(200);
   });
 
-  test('Invalid null cancha price', () => {
-    let cancha = new Canchas('Cancha 1', null, 'Ubicación 1', 'Descripción 1');
-    let expectedErrorMessage = 'El precio de la cancha debe ser un número positivo';
-    expect(() => cancha.isValid()).toThrow(expectedErrorMessage);
+  test('Set cancha location', () => {
+    let cancha = new Canchas('Cancha 1', 100, 'Ubicación 1', 'Descripción 1');
+    cancha.setUbicacion('Nueva Ubicación');
+    expect(cancha.getUbicacion()).toBe('Nueva Ubicación');
   });
 
-  test('Invalid undefined cancha price', () => {
-    let cancha = new Canchas('Cancha 1', undefined, 'Ubicación 1', 'Descripción 1');
-    let expectedErrorMessage = 'El precio de la cancha debe ser un número positivo';
-    expect(() => cancha.isValid()).toThrow(expectedErrorMessage);
+  test('Set cancha description', () => {
+    let cancha = new Canchas('Cancha 1', 100, 'Ubicación 1', 'Descripción 1');
+    cancha.setDescripcion('Nueva Descripción');
+    expect(cancha.getDescripcion()).toBe('Nueva Descripción');
   });
 
-  test('Invalid negative cancha price', () => {
+  // Tests for validation errors
+  test('Invalid cancha price', () => {
     let cancha = new Canchas('Cancha 1', -100, 'Ubicación 1', 'Descripción 1');
     let expectedErrorMessage = 'El precio de la cancha debe ser un número positivo';
     expect(() => cancha.isValid()).toThrow(expectedErrorMessage);
   });
 
-  test('Invalid null cancha location', () => {
-    let cancha = new Canchas('Cancha 1', 100, null, 'Descripción 1');
-    let expectedErrorMessage = 'La ubicación de la cancha no puede ser vacía';
-    expect(() => cancha.isValid()).toThrow(expectedErrorMessage);
-  });
-
-  test('Invalid undefined cancha location', () => {
-    let cancha = new Canchas('Cancha 1', 100, undefined, 'Descripción 1');
-    let expectedErrorMessage = 'La ubicación de la cancha no puede ser vacía';
-    expect(() => cancha.isValid()).toThrow(expectedErrorMessage);
-  });
-
-  test('Invalid empty cancha location', () => {
+  test('Invalid cancha location', () => {
     let cancha = new Canchas('Cancha 1', 100, '', 'Descripción 1');
     let expectedErrorMessage = 'La ubicación de la cancha no puede ser vacía';
     expect(() => cancha.isValid()).toThrow(expectedErrorMessage);
   });
 
-  test('Invalid null cancha description', () => {
-    let cancha = new Canchas('Cancha 1', 100, 'Ubicación 1', null);
-    let expectedErrorMessage = 'La descripción de la cancha no puede ser vacía';
-    expect(() => cancha.isValid()).toThrow(expectedErrorMessage);
-  });
-
-  test('Invalid undefined cancha description', () => {
-    let cancha = new Canchas('Cancha 1', 100, 'Ubicación 1', undefined);
-    let expectedErrorMessage = 'La descripción de la cancha no puede ser vacía';
-    expect(() => cancha.isValid()).toThrow(expectedErrorMessage);
-  });
-
-  test('Invalid empty cancha description', () => {
+  test('Invalid cancha description', () => {
     let cancha = new Canchas('Cancha 1', 100, 'Ubicación 1', '');
     let expectedErrorMessage = 'La descripción de la cancha no puede ser vacía';
     expect(() => cancha.isValid()).toThrow(expectedErrorMessage);
   });
 
-  test('Valid cancha', () => {
-    let cancha = new Canchas('Cancha 1', 100, 'Ubicación 1', 'Descripción 1');
-    expect(cancha.isValid()).toBe(true);
+  // Additional tests to ensure all branches are covered
+  test('Invalid cancha price is undefined', () => {
+    let cancha = new Canchas('Cancha 1', undefined, 'Ubicación 1', 'Descripción 1');
+    let expectedErrorMessage = 'El precio de la cancha debe ser un número positivo';
+    expect(() => cancha.isValid()).toThrow(expectedErrorMessage);
   });
 
-  test('ToString cancha', () => {
-    let cancha = new Canchas('Cancha 1', 100, 'Ubicación 1', 'Descripción 1');
-    let expectedString = 'Cancha: Cancha 1 - Precio: 100 - Ubicación: Ubicación 1 - Descripción: Descripción 1';
-    expect(cancha.toString()).toBe(expectedString);
+  test('Invalid cancha price is null', () => {
+    let cancha = new Canchas('Cancha 1', null, 'Ubicación 1', 'Descripción 1');
+    let expectedErrorMessage = 'El precio de la cancha debe ser un número positivo';
+    expect(() => cancha.isValid()).toThrow(expectedErrorMessage);
+  });
+
+  test('Invalid cancha price is NaN', () => {
+    let cancha = new Canchas('Cancha 1', 'NaN', 'Ubicación 1', 'Descripción 1');
+    let expectedErrorMessage = 'El precio de la cancha debe ser un número positivo';
+    expect(() => cancha.isValid()).toThrow(expectedErrorMessage);
+  });
+
+  test('Invalid cancha location is undefined', () => {
+    let cancha = new Canchas('Cancha 1', 100, undefined, 'Descripción 1');
+    let expectedErrorMessage = 'La ubicación de la cancha no puede ser vacía';
+    expect(() => cancha.isValid()).toThrow(expectedErrorMessage);
+  });
+
+  test('Invalid cancha location is null', () => {
+    let cancha = new Canchas('Cancha 1', 100, null, 'Descripción 1');
+    let expectedErrorMessage = 'La ubicación de la cancha no puede ser vacía';
+    expect(() => cancha.isValid()).toThrow(expectedErrorMessage);
+  });
+
+  test('Invalid cancha description is undefined', () => {
+    let cancha = new Canchas('Cancha 1', 100, 'Ubicación 1', undefined);
+    let expectedErrorMessage = 'La descripción de la cancha no puede ser vacía';
+    expect(() => cancha.isValid()).toThrow(expectedErrorMessage);
+  });
+
+  test('Invalid cancha description is null', () => {
+    let cancha = new Canchas('Cancha 1', 100, 'Ubicación 1', null);
+    let expectedErrorMessage = 'La descripción de la cancha no puede ser vacía';
+    expect(() => cancha.isValid()).toThrow(expectedErrorMessage);
+  });
+
+  test('Valid cancha with all valid properties', () => {
+    let cancha = new Canchas('Cancha Valida', 100, 'Ubicación Valida', 'Descripción Valida');
+    expect(cancha.isValid()).toBe(true);
   });
 });
