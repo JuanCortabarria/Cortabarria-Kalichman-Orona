@@ -1,112 +1,117 @@
 import { Canchas } from '../canchas';
 
 describe('Canchas class tests', () => {
+    test('Create instance of Canchas', () => {
+        const cancha = new Canchas('Cancha 1', 100, 'Ubicación 1', 'Descripción 1');
+        expect(cancha).toBeInstanceOf(Canchas);
+    });
 
-  // Tests for getters
-  test('Get cancha price', () => {
-    let cancha = new Canchas('Cancha 1', 100, 'Ubicación 1', 'Descripción 1');
-    expect(cancha.getPrecio()).toBe(100);
-  });
+    test('Get nombre', () => {
+        const cancha = new Canchas('Cancha 1', 100, 'Ubicación 1', 'Descripción 1');
+        expect(cancha.getNombre()).toBe('Cancha 1');
+    });
 
-  test('Get cancha location', () => {
-    let cancha = new Canchas('Cancha 1', 100, 'Ubicación 1', 'Descripción 1');
-    expect(cancha.getUbicacion()).toBe('Ubicación 1');
-  });
+    test('Get precio', () => {
+        const cancha = new Canchas('Cancha 1', 100, 'Ubicación 1', 'Descripción 1');
+        expect(cancha.getPrecio()).toBe(100);
+    });
 
-  test('Get cancha description', () => {
-    let cancha = new Canchas('Cancha 1', 100, 'Ubicación 1', 'Descripción 1');
-    expect(cancha.getDescripcion()).toBe('Descripción 1');
-  });
+    test('Get ubicacion', () => {
+        const cancha = new Canchas('Cancha 1', 100, 'Ubicación 1', 'Descripción 1');
+        expect(cancha.getUbicacion()).toBe('Ubicación 1');
+    });
 
-  // Tests for setters
-  test('Set cancha name', () => {
-    let cancha = new Canchas('Cancha 1', 100, 'Ubicación 1', 'Descripción 1');
-    cancha.setNombre('Nueva Cancha');
-    expect(cancha.getNombre()).toBe('Nueva Cancha');
-  });
+    test('Get descripcion', () => {
+        const cancha = new Canchas('Cancha 1', 100, 'Ubicación 1', 'Descripción 1');
+        expect(cancha.getDescripcion()).toBe('Descripción 1');
+    });
 
-  test('Set cancha price', () => {
-    let cancha = new Canchas('Cancha 1', 100, 'Ubicación 1', 'Descripción 1');
-    cancha.setPrecio(200);
-    expect(cancha.getPrecio()).toBe(200);
-  });
+    test('Set nombre', () => {
+        const cancha = new Canchas('Cancha 1', 100, 'Ubicación 1', 'Descripción 1');
+        cancha.setNombre('Cancha 2');
+        expect(cancha.getNombre()).toBe('Cancha 2');
+    });
 
-  test('Set cancha location', () => {
-    let cancha = new Canchas('Cancha 1', 100, 'Ubicación 1', 'Descripción 1');
-    cancha.setUbicacion('Nueva Ubicación');
-    expect(cancha.getUbicacion()).toBe('Nueva Ubicación');
-  });
+    test('Set precio', () => {
+        const cancha = new Canchas('Cancha 1', 100, 'Ubicación 1', 'Descripción 1');
+        cancha.setPrecio(200);
+        expect(cancha.getPrecio()).toBe(200);
+    });
 
-  test('Set cancha description', () => {
-    let cancha = new Canchas('Cancha 1', 100, 'Ubicación 1', 'Descripción 1');
-    cancha.setDescripcion('Nueva Descripción');
-    expect(cancha.getDescripcion()).toBe('Nueva Descripción');
-  });
+    test('Set ubicacion', () => {
+        const cancha = new Canchas('Cancha 1', 100, 'Ubicación 1', 'Descripción 1');
+        cancha.setUbicacion('Ubicación 2');
+        expect(cancha.getUbicacion()).toBe('Ubicación 2');
+    });
 
-  // Tests for validation errors
-  test('Invalid cancha price', () => {
-    let cancha = new Canchas('Cancha 1', -100, 'Ubicación 1', 'Descripción 1');
-    let expectedErrorMessage = 'El precio de la cancha debe ser un número positivo';
-    expect(() => cancha.isValid()).toThrow(expectedErrorMessage);
-  });
+    test('Set descripcion', () => {
+        const cancha = new Canchas('Cancha 1', 100, 'Ubicación 1', 'Descripción 1');
+        cancha.setDescripcion('Descripción 2');
+        expect(cancha.getDescripcion()).toBe('Descripción 2');
+    });
 
-  test('Invalid cancha location', () => {
-    let cancha = new Canchas('Cancha 1', 100, '', 'Descripción 1');
-    let expectedErrorMessage = 'La ubicación de la cancha no puede ser vacía';
-    expect(() => cancha.isValid()).toThrow(expectedErrorMessage);
-  });
+    test('toString method', () => {
+        const cancha = new Canchas('Cancha 1', 100, 'Ubicación 1', 'Descripción 1');
+        expect(cancha.toString()).toBe('Cancha: Cancha 1 - Precio: 100 - Ubicación: Ubicación 1 - Descripción: Descripción 1');
+    });
 
-  test('Invalid cancha description', () => {
-    let cancha = new Canchas('Cancha 1', 100, 'Ubicación 1', '');
-    let expectedErrorMessage = 'La descripción de la cancha no puede ser vacía';
-    expect(() => cancha.isValid()).toThrow(expectedErrorMessage);
-  });
+    test('Valid cancha', () => {
+        const cancha = new Canchas('Cancha 1', 100, 'Ubicación 1', 'Descripción 1');
+        expect(cancha.isValid()).toBe(true);
+    });
 
-  // Additional tests to ensure all branches are covered
-  test('Invalid cancha price is undefined', () => {
-    let cancha = new Canchas('Cancha 1', undefined, 'Ubicación 1', 'Descripción 1');
-    let expectedErrorMessage = 'El precio de la cancha debe ser un número positivo';
-    expect(() => cancha.isValid()).toThrow(expectedErrorMessage);
-  });
+    test('Invalid cancha name (empty)', () => {
+        const cancha = new Canchas('', 100, 'Ubicación 1', 'Descripción 1');
+        expect(() => cancha.isValid()).toThrow('El nombre de la cancha no puede ser vacío');
+    });
 
-  test('Invalid cancha price is null', () => {
-    let cancha = new Canchas('Cancha 1', null, 'Ubicación 1', 'Descripción 1');
-    let expectedErrorMessage = 'El precio de la cancha debe ser un número positivo';
-    expect(() => cancha.isValid()).toThrow(expectedErrorMessage);
-  });
+    test('Invalid cancha price (undefined)', () => {
+        const cancha = new Canchas('Cancha 1', undefined, 'Ubicación 1', 'Descripción 1');
+        expect(() => cancha.isValid()).toThrow('El precio de la cancha debe ser un número positivo');
+    });
 
-  test('Invalid cancha price is NaN', () => {
-    let cancha = new Canchas('Cancha 1', 'NaN', 'Ubicación 1', 'Descripción 1');
-    let expectedErrorMessage = 'El precio de la cancha debe ser un número positivo';
-    expect(() => cancha.isValid()).toThrow(expectedErrorMessage);
-  });
+    test('Invalid cancha price (null)', () => {
+        const cancha = new Canchas('Cancha 1', null, 'Ubicación 1', 'Descripción 1');
+        expect(() => cancha.isValid()).toThrow('El precio de la cancha debe ser un número positivo');
+    });
 
-  test('Invalid cancha location is undefined', () => {
-    let cancha = new Canchas('Cancha 1', 100, undefined, 'Descripción 1');
-    let expectedErrorMessage = 'La ubicación de la cancha no puede ser vacía';
-    expect(() => cancha.isValid()).toThrow(expectedErrorMessage);
-  });
+    test('Invalid cancha price (NaN)', () => {
+        const cancha = new Canchas('Cancha 1', 'NaN', 'Ubicación 1', 'Descripción 1');
+        expect(() => cancha.isValid()).toThrow('El precio de la cancha debe ser un número positivo');
+    });
 
-  test('Invalid cancha location is null', () => {
-    let cancha = new Canchas('Cancha 1', 100, null, 'Descripción 1');
-    let expectedErrorMessage = 'La ubicación de la cancha no puede ser vacía';
-    expect(() => cancha.isValid()).toThrow(expectedErrorMessage);
-  });
+    test('Invalid cancha price (negative)', () => {
+        const cancha = new Canchas('Cancha 1', -100, 'Ubicación 1', 'Descripción 1');
+        expect(() => cancha.isValid()).toThrow('El precio de la cancha debe ser un número positivo');
+    });
 
-  test('Invalid cancha description is undefined', () => {
-    let cancha = new Canchas('Cancha 1', 100, 'Ubicación 1', undefined);
-    let expectedErrorMessage = 'La descripción de la cancha no puede ser vacía';
-    expect(() => cancha.isValid()).toThrow(expectedErrorMessage);
-  });
+    test('Invalid cancha location (empty)', () => {
+        const cancha = new Canchas('Cancha 1', 100, '', 'Descripción 1');
+        expect(() => cancha.isValid()).toThrow('La ubicación de la cancha no puede ser vacía');
+    });
 
-  test('Invalid cancha description is null', () => {
-    let cancha = new Canchas('Cancha 1', 100, 'Ubicación 1', null);
-    let expectedErrorMessage = 'La descripción de la cancha no puede ser vacía';
-    expect(() => cancha.isValid()).toThrow(expectedErrorMessage);
-  });
+    test('Invalid cancha location (undefined)', () => {
+        const cancha = new Canchas('Cancha 1', 100, undefined, 'Descripción 1');
+        expect(() => cancha.isValid()).toThrow('La ubicación de la cancha no puede ser vacía');
+    });
 
-  test('Valid cancha with all valid properties', () => {
-    let cancha = new Canchas('Cancha Valida', 100, 'Ubicación Valida', 'Descripción Valida');
-    expect(cancha.isValid()).toBe(true);
-  });
+    test('Invalid cancha location (null)', () => {
+        const cancha = new Canchas('Cancha 1', 100, null, 'Descripción 1');
+        expect(() => cancha.isValid()).toThrow('La ubicación de la cancha no puede ser vacía');
+    });
+
+    test('Invalid cancha description (empty)', () => {
+        const cancha = new Canchas('Cancha 1', 100, 'Ubicación 1', '');
+        expect(() => cancha.isValid()).toThrow('La descripción de la cancha no puede ser vacía');
+    });
+
+    test('Invalid cancha description (undefined)', () => {
+        const cancha = new Canchas('Cancha 1', 100, 'Ubicación 1', undefined);
+        expect(() => cancha.isValid()).toThrow('La descripción de la cancha no puede ser vacía');
+    });
+
+    test('Invalid cancha description (null)', () => {
+        const cancha = new Canchas('Cancha 1', 100, 'Ubicación 1', null);
+        expect(() => cancha.isValid()).toThrow('La descripción de la cancha no puede ser vacía');
+    });
 });
