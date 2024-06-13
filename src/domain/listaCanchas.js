@@ -1,4 +1,4 @@
-import { Canchas } from './canchas';
+import { Canchas } from '../canchas';
 
 export class ListaCanchas {
     #canchas = [];

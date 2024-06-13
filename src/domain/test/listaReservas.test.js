@@ -29,7 +29,7 @@ describe('ListaReservas class tests', () => {
     reserva.setNombreCliente('Juan Perez');
     reserva.setMailCliente('juan@example.com');
     listaReservasInstance.add(reserva);
-    let expectedErrorMessage = 'No se pudo agregar. Cancha Cancha 1 ya está en la lista.';
+    let expectedErrorMessage = 'No se pudo agregar. Reserva para la cancha Cancha 1 ya está en la lista.';
     expect(() => listaReservasInstance.add(reserva)).toThrow(expectedErrorMessage);
   });
 
