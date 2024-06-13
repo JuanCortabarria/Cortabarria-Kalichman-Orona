@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1718221295043" clover="3.2.0">
-  <project timestamp="1718221295043" name="All files">
+<coverage generated="1718288535036" clover="3.2.0">
+  <project timestamp="1718288535037" name="All files">
     <metrics statements="81" coveredstatements="57" conditionals="74" coveredconditionals="58" methods="37" coveredmethods="28" elements="192" coveredelements="143" complexity="0" loc="81" ncloc="81" packages="1" files="5" classes="5"/>
     <file name="canchas.js" path="C:\Users\Acer\Desktop\FIS\Cortabarria-Kalichman-Orona\src\domain\canchas.js">
       <metrics statements="24" coveredstatements="15" conditionals="23" coveredconditionals="19" methods="11" coveredmethods="6"/>
