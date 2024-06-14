@@ -42,7 +42,6 @@ export class Canchas {
     setDescripcion(descripcion) {
         this.#descripcion = descripcion;
     }
-
     isValid() {
         if (this.#nombre === undefined || this.#nombre === null || this.#nombre === '') {
             throw new Error('El nombre de la cancha no puede ser vacío');

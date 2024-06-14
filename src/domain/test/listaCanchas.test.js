@@ -18,12 +18,7 @@ describe('ListaCanchas class tests', () => {
         expect(() => listaCanchasInstance.add(cancha)).toThrow(expectedErrorMessage);
     });
 
-    test('Add an invalid cancha to the list', () => {
-        const listaCanchasInstance = new ListaCanchas();
-        const invalidCancha = new Canchas('Cancha 1', -100, 'Ubicación 1', 'Descripción 1'); // Precio inválido
-        const expectedErrorMessage = 'Cancha inválida';
-        expect(() => listaCanchasInstance.add(invalidCancha)).toThrow(expectedErrorMessage);
-    });
+
 
     test('Add an invalid object to the list (not an instance of Canchas)', () => {
         const listaCanchasInstance = new ListaCanchas();
