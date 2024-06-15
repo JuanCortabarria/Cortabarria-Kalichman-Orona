@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1718323446541" clover="3.2.0">
-  <project timestamp="1718323446541" name="All files">
+<coverage generated="1718485105162" clover="3.2.0">
+  <project timestamp="1718485105162" name="All files">
     <metrics statements="80" coveredstatements="80" conditionals="75" coveredconditionals="75" methods="35" coveredmethods="35" elements="190" coveredelements="190" complexity="0" loc="80" ncloc="80" packages="1" files="5" classes="5"/>
-    <file name="Reservas.js" path="C:\Users\mauro\OneDrive\Escritorio\Cortabarria-Kalichman-Orona-3\src\domain\Reservas.js">
+    <file name="Reservas.js" path="C:\Users\Juan\OneDrive - Universidad de Montevideo\Documentos\ORT\4to semestre\Fundamentos de Ingeniería en Software\Obligatorio2\Cortabarria-Kalichman-Orona\src\domain\Reservas.js">
       <metrics statements="29" coveredstatements="29" conditionals="29" coveredconditionals="29" methods="13" coveredmethods="13"/>
       <line num="10" count="21" type="stmt"/>
       <line num="14" count="5" type="stmt"/>
@@ -34,7 +34,7 @@
       <line num="83" count="1" type="stmt"/>
       <line num="86" count="1" type="stmt"/>
     </file>
-    <file name="canchas.js" path="C:\Users\mauro\OneDrive\Escritorio\Cortabarria-Kalichman-Orona-3\src\domain\canchas.js">
+    <file name="canchas.js" path="C:\Users\Juan\OneDrive - Universidad de Montevideo\Documentos\ORT\4to semestre\Fundamentos de Ingeniería en Software\Obligatorio2\Cortabarria-Kalichman-Orona\src\domain\canchas.js">
       <metrics statements="22" coveredstatements="22" conditionals="21" coveredconditionals="21" methods="11" coveredmethods="11"/>
       <line num="8" count="26" type="stmt"/>
       <line num="9" count="26" type="stmt"/>
@@ -59,7 +59,7 @@
       <line num="58" count="1" type="stmt"/>
       <line num="62" count="1" type="stmt"/>
     </file>
-    <file name="clientes.js" path="C:\Users\mauro\OneDrive\Escritorio\Cortabarria-Kalichman-Orona-3\src\domain\clientes.js">
+    <file name="clientes.js" path="C:\Users\Juan\OneDrive - Universidad de Montevideo\Documentos\ORT\4to semestre\Fundamentos de Ingeniería en Software\Obligatorio2\Cortabarria-Kalichman-Orona\src\domain\clientes.js">
       <metrics statements="15" coveredstatements="15" conditionals="14" coveredconditionals="14" methods="5" coveredmethods="5"/>
       <line num="7" count="11" type="stmt"/>
       <line num="11" count="1" type="stmt"/>
@@ -77,7 +77,7 @@
       <line num="39" count="1" type="stmt"/>
       <line num="42" count="1" type="stmt"/>
     </file>
-    <file name="listaCanchas.js" path="C:\Users\mauro\OneDrive\Escritorio\Cortabarria-Kalichman-Orona-3\src\domain\listaCanchas.js">
+    <file name="listaCanchas.js" path="C:\Users\Juan\OneDrive - Universidad de Montevideo\Documentos\ORT\4to semestre\Fundamentos de Ingeniería en Software\Obligatorio2\Cortabarria-Kalichman-Orona\src\domain\listaCanchas.js">
       <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
       <line num="4" count="4" type="stmt"/>
       <line num="7" count="6" type="cond" truecount="2" falsecount="0"/>
@@ -87,7 +87,7 @@
       <line num="14" count="4" type="stmt"/>
       <line num="18" count="2" type="stmt"/>
     </file>
-    <file name="listaReservas.js" path="C:\Users\mauro\OneDrive\Escritorio\Cortabarria-Kalichman-Orona-3\src\domain\listaReservas.js">
+    <file name="listaReservas.js" path="C:\Users\Juan\OneDrive - Universidad de Montevideo\Documentos\ORT\4to semestre\Fundamentos de Ingeniería en Software\Obligatorio2\Cortabarria-Kalichman-Orona\src\domain\listaReservas.js">
       <metrics statements="7" coveredstatements="7" conditionals="7" coveredconditionals="7" methods="3" coveredmethods="3"/>
       <line num="4" count="5" type="stmt"/>
       <line num="7" count="5" type="cond" truecount="2" falsecount="0"/>
