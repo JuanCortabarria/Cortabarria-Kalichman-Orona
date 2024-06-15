@@ -12,6 +12,10 @@ HTML ha servido como el lenguaje fundamental para estructurar las diversas pági
 
 Para el diseño visual y la presentación estilizada de nuestro sitio web, hemos utilizado CSS y el framework Bootstrap. CSS nos ha permitido personalizar el aspecto de nuestros elementos HTML, asegurando una interfaz de usuario atractiva y coherente. Bootstrap, por su parte, nos ha facilitado la creación de un diseño responsivo y adaptable, optimizando la experiencia del usuario en una variedad de dispositivos y tamaños de pantalla.
 
+## Flowbite
+
+Flowbite, una biblioteca de componentes para Tailwind CSS, ha sido instrumental en la implementación de componentes de interfaz de usuario como avatares, botones y menús desplegables. En particular, hemos utilizado el componente de Avatar de Flowbite para mostrar imágenes de perfil de usuario de manera elegante y consistente.
+
 ## JavaScript
 
 JavaScript ha sido esencial para la interactividad dinámica de nuestro sitio web. Lo hemos utilizado para validar formularios, gestionar eventos del usuario, como clics y envíos de formularios, y actualizar dinámicamente el contenido de la página sin necesidad de recargarla. Esto ha mejorado significativamente la usabilidad y la eficiencia de nuestra aplicación web.
