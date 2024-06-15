@@ -18,7 +18,7 @@ JavaScript ha sido esencial para la interactividad dinámica de nuestro sitio we
 
 Para garantizar que nuestra aplicación web sea accesible para todos los usuarios, hemos integrado la herramienta Wave. Con Wave, hemos realizado auditorías automáticas de accesibilidad que nos han permitido identificar y corregir problemas como la falta de atributos "alt" en imágenes, el uso adecuado de etiquetas semánticas y la navegación mejorada con teclado. Esto asegura que nuestra aplicación cumpla con los estándares de accesibilidad web y sea usable por una amplia gama de usuarios.
 
-![Tests Unitarios](IMG/wave.jpeg)
+![Wave](imgInforme/wave.jpeg)
 
 ## Interfaz de Usuario
 
@@ -40,7 +40,7 @@ Para garantizar la funcionalidad correcta de nuestro código, hemos implementado
 - **Interactividad de la Interfaz**: Probamos la interacción de los usuarios con elementos dinámicos como botones y ventanas emergentes, asegurando que las acciones del usuario se manejen correctamente sin errores inesperados.
 - **Integración de Componentes**: Confirmamos que los componentes y módulos de nuestro proyecto funcionen de manera conjunta sin conflictos ni problemas de integración.
 
-![Tests Unitarios](IMG/test.jpeg)
+![Tests Unitarios](imgInforme/test.jpeg)
 
 ## Reflexión y Próximos Pasos
 
