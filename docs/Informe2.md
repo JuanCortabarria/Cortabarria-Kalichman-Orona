@@ -1,4 +1,6 @@
-# Construcción del Proyecto
+#Informe entrega 2
+
+## Construcción del Proyecto
 
 Durante la fase de construcción de nuestro proyecto web, hemos empleado una combinación efectiva de tecnologías y herramientas para garantizar la funcionalidad y la calidad del producto final. A continuación, detallamos cómo hemos utilizado estos elementos clave en nuestra implementación:
 
@@ -51,10 +53,10 @@ En esta fase del proyecto, hemos logrado avances significativos en la implementa
 - Ampliación de las pruebas unitarias para cubrir más escenarios y asegurar la estabilidad a largo plazo del proyecto.
 
 ### Reflexión individual (Mauro Orona)
-XXXXXXXXXXXXXXXXXXXXXX
+Durante este proyecto, he mejorado mucho en el uso de HTML, CSS y Bootstrap para crear una estructura clara y un diseño atractivo y responsivo. JavaScript ha sido clave para añadir interactividad y validar formularios, lo que ha sido un desafío interesante. Wave me ha ayudado a asegurar que nuestro sitio sea accesible para todos. Trabajar con Visual Studio Code y Git ha mejorado mi productividad y colaboración en equipo. Las pruebas unitarias con Jest han sido fundamentales para garantizar la calidad del código. En resumen, este proyecto me ha ayudado a crecer como desarrollador web.
 
 ### Reflexión individual (Joaquin Kalichman)
-XXXXXXXXXXXXXXXXXXXXXX
+Participar en este proyecto me ha permitido aplicar y expandir mis conocimientos en desarrollo web. Aprendí la importancia de un marcado semántico con HTML y cómo CSS y Bootstrap pueden mejorar el diseño y la responsividad. JavaScript fue esencial para añadir interactividad y validar formularios. Wave me ayudó a asegurar que el sitio sea accesible. Utilizar Visual Studio Code y Git facilitó la colaboración y la gestión de versiones. Las pruebas unitarias con Jest me enseñaron a asegurar la funcionalidad correcta desde el principio. Este proyecto ha sido una experiencia valiosa que ha reforzado mis habilidades.
 
 ### Reflexión individual (Juan Cortabarria)
-XXXXXXXXXXXXXXXXXXXXXX
+Este proyecto me ha ayudado a crecer en mis habilidades de desarrollo web. Aprendí a usar HTML para estructurar páginas de manera clara y Bootstrap para un diseño atractivo y responsivo. JavaScript fue fundamental para añadir interactividad y validar formularios. Wave fue crucial para garantizar la accesibilidad. Las pruebas unitarias con Jest aseguraron la calidad del código. En general, este proyecto me ha preparado mejor para futuros desafíos en el desarrollo de paginas web.
