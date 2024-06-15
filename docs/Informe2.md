@@ -18,6 +18,8 @@ JavaScript ha sido esencial para la interactividad dinámica de nuestro sitio we
 
 Para garantizar que nuestra aplicación web sea accesible para todos los usuarios, hemos integrado la herramienta Wave. Con Wave, hemos realizado auditorías automáticas de accesibilidad que nos han permitido identificar y corregir problemas como la falta de atributos "alt" en imágenes, el uso adecuado de etiquetas semánticas y la navegación mejorada con teclado. Esto asegura que nuestra aplicación cumpla con los estándares de accesibilidad web y sea usable por una amplia gama de usuarios.
 
+![Tests Unitarios](IMG/wave.jpeg)
+
 ## Interfaz de Usuario
 
 La interfaz de usuario de nuestro proyecto se ha diseñado siguiendo principios de usabilidad y accesibilidad. Hemos adoptado un enfoque minimalista para mantener la simplicidad y la claridad en la navegación. La estructura de una sola página (single-page application) nos ha permitido presentar la información de manera fluida y mantener una experiencia de usuario intuitiva.
@@ -37,6 +39,8 @@ Para garantizar la funcionalidad correcta de nuestro código, hemos implementado
 - **Validación de Formularios**: Verificamos que la validación de datos en nuestros formularios se realice correctamente, asegurando que solo se acepten datos válidos según los criterios establecidos.
 - **Interactividad de la Interfaz**: Probamos la interacción de los usuarios con elementos dinámicos como botones y ventanas emergentes, asegurando que las acciones del usuario se manejen correctamente sin errores inesperados.
 - **Integración de Componentes**: Confirmamos que los componentes y módulos de nuestro proyecto funcionen de manera conjunta sin conflictos ni problemas de integración.
+
+![Tests Unitarios](IMG/test.jpeg)
 
 ## Reflexión y Próximos Pasos
 
