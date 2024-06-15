@@ -1,4 +1,3 @@
-# Proyecto 2023 S1
 
 ## Objetivos del proyecto
 
