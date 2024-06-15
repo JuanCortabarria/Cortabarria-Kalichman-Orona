@@ -40,7 +40,7 @@ Para garantizar la funcionalidad correcta de nuestro código, hemos implementado
 - **Interactividad de la Interfaz**: Probamos la interacción de los usuarios con elementos dinámicos como botones y ventanas emergentes, asegurando que las acciones del usuario se manejen correctamente sin errores inesperados.
 - **Integración de Componentes**: Confirmamos que los componentes y módulos de nuestro proyecto funcionen de manera conjunta sin conflictos ni problemas de integración.
 
-![Tests Unitarios](imgInforme/test.jpeg)
+![Tests Unitarios](imgInforme/tests.jpeg)
 
 ## Reflexión y Próximos Pasos
 
