@@ -146,6 +146,15 @@ El sistema web que se va a testear es una página de publicación de viajes. El 
 - **Duración:** Corta (15 min).
 - **Notas principales:** Los campos de entrada permiten caracteres especiales en los campos de origen y destino, lo cual no debería ser permitido.
 
+
+## Reporte de issues:
+
+- https://github.com/IngSoft-FIS-2024-1/proyecto-pereyra-gomez-de-feo/issues/2
+- https://github.com/IngSoft-FIS-2024-1/proyecto-pereyra-gomez-de-feo/issues/4
+- https://github.com/IngSoft-FIS-2024-1/proyecto-pereyra-gomez-de-feo/issues/5
+- https://github.com/IngSoft-FIS-2024-1/proyecto-pereyra-gomez-de-feo/issues/3
+
+
 ## Informe de calidad del sistema:
 
 ### Porcentajes Globales:
@@ -161,3 +170,14 @@ El sistema web que se va a testear es una página de publicación de viajes. El 
 - Se debe corregir la funcionalidad de los botones "Buscar Viaje" y "Mi Perfil".
 - Se recomienda corregir la lógica de validación para no incluir cantidades de pasajeros decimales y mostrar un mensaje de error cuando sea necesario.
 - Se recomienda corregir la lógica de validación para rechazar cantidades de pasajeros excesivas y mostrar un mensaje de error correspondiente.
+
+
+## Reflexión:
+
+- Este semestre, comenzamos como un grupo de desconocidos, pero rápidamente nos unimos para formar un equipo sólido y eficaz. A lo largo del tiempo, cada uno de nosotros aportó sus habilidades únicas, lo que nos permitió abordar las tareas de manera integral y creativa.
+
+El proceso de conocernos y aprender a trabajar juntos no siempre fue fácil, pero nos esforzamos por entender y respetar las fortalezas y perspectivas de cada miembro del equipo. Esto fue fundamental para enfrentar los desafíos que surgieron y para mantenernos enfocados en nuestros objetivos comunes.
+
+Aunque al inicio no nos conocíamos, logramos establecer una buena dinámica de grupo y trabajar de manera colaborativa. Creemos firmemente que alcanzamos los objetivos que nos planteamos al comienzo del semestre. La experiencia de trabajar juntos ha sido enriquecedora y nos ha demostrado el valor del trabajo en equipo y la importancia de la colaboración y el apoyo mutuo.
+
+Este semestre no solo logramos cumplir con nuestras metas, sino que también crecimos como equipo y como individuos, lo cual es un logro significativo que llevaremos con nosotros en futuros proyectos.
