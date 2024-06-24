@@ -1,4 +1,4 @@
-#Informe entrega 2
+# Informe entrega 2
 
 ## Construcción del Proyecto
 
