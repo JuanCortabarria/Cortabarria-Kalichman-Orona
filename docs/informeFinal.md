@@ -174,7 +174,7 @@ El sistema web que se va a testear es una página de publicación de viajes. El 
 
 ## Reflexión:
 
-- Este semestre, comenzamos como un grupo de desconocidos, pero rápidamente nos unimos para formar un equipo sólido y eficaz. A lo largo del tiempo, cada uno de nosotros aportó sus habilidades únicas, lo que nos permitió abordar las tareas de manera integral y creativa.
+Este semestre, comenzamos como un grupo de desconocidos, pero rápidamente nos unimos para formar un equipo sólido y eficaz. A lo largo del tiempo, cada uno de nosotros aportó sus habilidades únicas, lo que nos permitió abordar las tareas de manera integral y creativa.
 
 El proceso de conocernos y aprender a trabajar juntos no siempre fue fácil, pero nos esforzamos por entender y respetar las fortalezas y perspectivas de cada miembro del equipo. Esto fue fundamental para enfrentar los desafíos que surgieron y para mantenernos enfocados en nuestros objetivos comunes.
 
